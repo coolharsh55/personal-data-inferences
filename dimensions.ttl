@@ -4,140 +4,164 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <https://w3id.org/pinfer/dimensions#> .
+@base <https://w3id.org/pinfer/dimensions> .
 
-<https://w3id.org/pinfer/dimensions#> rdf:type owl:Ontology .
+<https://w3id.org/pinfer/dimensions> rdf:type owl:Ontology .
 
 #################################################################
 #    Object Properties
 #################################################################
 
-###  https://w3id.org/pinfer/dimensions##hasGranularity
+###  http://www.semanticweb.org/harsh/ontologies/2019/0/untitled-ontology-38#hasGranularity
 :hasGranularity rdf:type owl:ObjectProperty ;
                 rdfs:range :Granularity .
+
+
+###  https://w3id.org/pinfer/dimensions#hasQuality
+:hasQuality rdf:type owl:ObjectProperty .
 
 
 #################################################################
 #    Classes
 #################################################################
 
-###  https://w3id.org/pinfer/dimensions##City
+###  http://www.semanticweb.org/harsh/ontologies/2019/0/untitled-ontology-38#City
 :City rdf:type owl:Class ;
       rdfs:subClassOf :Region .
 
 
-###  https://w3id.org/pinfer/dimensions##CityDivision
+###  http://www.semanticweb.org/harsh/ontologies/2019/0/untitled-ontology-38#CityDivision
 :CityDivision rdf:type owl:Class ;
               rdfs:subClassOf :City .
 
 
-###  https://w3id.org/pinfer/dimensions##Country
+###  http://www.semanticweb.org/harsh/ontologies/2019/0/untitled-ontology-38#Country
 :Country rdf:type owl:Class ;
          rdfs:subClassOf :Location .
 
 
-###  https://w3id.org/pinfer/dimensions##Device
+###  http://www.semanticweb.org/harsh/ontologies/2019/0/untitled-ontology-38#Device
 :Device rdf:type owl:Class ;
         rdfs:subClassOf :Medium .
 
 
-###  https://w3id.org/pinfer/dimensions##Dimensions
+###  http://www.semanticweb.org/harsh/ontologies/2019/0/untitled-ontology-38#Dimensions
 :Dimensions rdf:type owl:Class .
 
 
-###  https://w3id.org/pinfer/dimensions##ExactPosition
+###  http://www.semanticweb.org/harsh/ontologies/2019/0/untitled-ontology-38#ExactPosition
 :ExactPosition rdf:type owl:Class ;
                rdfs:subClassOf :ExactStructure .
 
 
-###  https://w3id.org/pinfer/dimensions##ExactStructure
+###  http://www.semanticweb.org/harsh/ontologies/2019/0/untitled-ontology-38#ExactStructure
 :ExactStructure rdf:type owl:Class ;
                 rdfs:subClassOf :NearbySurroundings .
 
 
-###  https://w3id.org/pinfer/dimensions##Frequency
+###  http://www.semanticweb.org/harsh/ontologies/2019/0/untitled-ontology-38#Frequency
 :Frequency rdf:type owl:Class ;
            rdfs:subClassOf :Quantity .
 
 
-###  https://w3id.org/pinfer/dimensions##Granularity
+###  http://www.semanticweb.org/harsh/ontologies/2019/0/untitled-ontology-38#Granularity
 :Granularity rdf:type owl:Class ;
              rdfs:subClassOf :Dimensions .
 
 
-###  https://w3id.org/pinfer/dimensions##Location
+###  http://www.semanticweb.org/harsh/ontologies/2019/0/untitled-ontology-38#Location
 :Location rdf:type owl:Class ;
           rdfs:subClassOf :Granularity .
 
 
-###  https://w3id.org/pinfer/dimensions##Medium
+###  http://www.semanticweb.org/harsh/ontologies/2019/0/untitled-ontology-38#Medium
 :Medium rdf:type owl:Class ;
         rdfs:subClassOf :Dimensions .
 
 
-###  https://w3id.org/pinfer/dimensions##MobilePhone
+###  http://www.semanticweb.org/harsh/ontologies/2019/0/untitled-ontology-38#MobilePhone
 :MobilePhone rdf:type owl:Class ;
              rdfs:subClassOf :Device .
 
 
-###  https://w3id.org/pinfer/dimensions##NearbySurroundings
+###  http://www.semanticweb.org/harsh/ontologies/2019/0/untitled-ontology-38#NearbySurroundings
 :NearbySurroundings rdf:type owl:Class ;
                     rdfs:subClassOf :Surroundings .
 
 
-###  https://w3id.org/pinfer/dimensions##Online
+###  http://www.semanticweb.org/harsh/ontologies/2019/0/untitled-ontology-38#Online
 :Online rdf:type owl:Class ;
         rdfs:subClassOf :Medium .
 
 
-###  https://w3id.org/pinfer/dimensions##Paper
+###  http://www.semanticweb.org/harsh/ontologies/2019/0/untitled-ontology-38#Paper
 :Paper rdf:type owl:Class ;
        rdfs:subClassOf :Medium .
 
 
-###  https://w3id.org/pinfer/dimensions##Periodicity
+###  http://www.semanticweb.org/harsh/ontologies/2019/0/untitled-ontology-38#Periodicity
 :Periodicity rdf:type owl:Class ;
              rdfs:subClassOf :Quantity .
 
 
-###  https://w3id.org/pinfer/dimensions##Quality
+###  http://www.semanticweb.org/harsh/ontologies/2019/0/untitled-ontology-38#Quality
 :Quality rdf:type owl:Class ;
          rdfs:subClassOf :Dimensions .
 
 
-###  https://w3id.org/pinfer/dimensions##Quantity
+###  http://www.semanticweb.org/harsh/ontologies/2019/0/untitled-ontology-38#Quantity
 :Quantity rdf:type owl:Class ;
           rdfs:subClassOf :Dimensions .
 
 
-###  https://w3id.org/pinfer/dimensions##Region
+###  http://www.semanticweb.org/harsh/ontologies/2019/0/untitled-ontology-38#Region
 :Region rdf:type owl:Class ;
         rdfs:subClassOf :Country .
 
 
-###  https://w3id.org/pinfer/dimensions##Smartphone
+###  http://www.semanticweb.org/harsh/ontologies/2019/0/untitled-ontology-38#Score
+:Score rdf:type owl:Class ;
+       rdfs:subClassOf :Quantity .
+
+
+###  http://www.semanticweb.org/harsh/ontologies/2019/0/untitled-ontology-38#ScoreHigh
+:ScoreHigh rdf:type owl:Class ;
+           rdfs:subClassOf :Score .
+
+
+###  http://www.semanticweb.org/harsh/ontologies/2019/0/untitled-ontology-38#ScoreLow
+:ScoreLow rdf:type owl:Class ;
+          rdfs:subClassOf :Score .
+
+
+###  http://www.semanticweb.org/harsh/ontologies/2019/0/untitled-ontology-38#Smartphone
 :Smartphone rdf:type owl:Class ;
             rdfs:subClassOf :MobilePhone .
 
 
-###  https://w3id.org/pinfer/dimensions##Source
+###  http://www.semanticweb.org/harsh/ontologies/2019/0/untitled-ontology-38#Source
 :Source rdf:type owl:Class ;
         rdfs:subClassOf :Dimensions .
 
 
-###  https://w3id.org/pinfer/dimensions##Surroundings
+###  http://www.semanticweb.org/harsh/ontologies/2019/0/untitled-ontology-38#Surroundings
 :Surroundings rdf:type owl:Class ;
               rdfs:subClassOf :CityDivision .
 
 
-###  https://w3id.org/pinfer/dimensions##WebService
+###  http://www.semanticweb.org/harsh/ontologies/2019/0/untitled-ontology-38#WebService
 :WebService rdf:type owl:Class ;
             rdfs:subClassOf :Online .
 
 
-###  https://w3id.org/pinfer/dimensions##Website
+###  http://www.semanticweb.org/harsh/ontologies/2019/0/untitled-ontology-38#Website
 :Website rdf:type owl:Class ;
          rdfs:subClassOf :Online .
+
+
+###  https://w3id.org/pinfer/dimensions#PleasureQuality
+:PleasureQuality rdf:type owl:Class ;
+                 rdfs:subClassOf :Quality .
 
 
 ###  Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi

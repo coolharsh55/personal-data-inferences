@@ -4,695 +4,750 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <https://w3id.org/pinfer/personal-data#> .
+@base <https://w3id.org/pinfer/personal-data> .
 
-<https://w3id.org/pinfer/personal-data#> rdf:type owl:Ontology .
+<https://w3id.org/pinfer/personal-data> rdf:type owl:Ontology .
 
 #################################################################
 #    Classes
 #################################################################
 
-###  https://w3id.org/pinfer/personal-data##Accents
+###  https://w3id.org/pinfer/personal-data#Accents
 :Accents rdf:type owl:Class ;
          rdfs:subClassOf :Languages .
 
 
-###  https://w3id.org/pinfer/personal-data##Account
+###  https://w3id.org/pinfer/personal-data#Account
 :Account rdf:type owl:Class ;
          rdfs:subClassOf :Financial .
 
 
-###  https://w3id.org/pinfer/personal-data##AccountIdentifiers
+###  https://w3id.org/pinfer/personal-data#AccountIdentifiers
 :AccountIdentifiers rdf:type owl:Class ;
                     rdfs:subClassOf :Account .
 
 
-###  https://w3id.org/pinfer/personal-data##AccountNumber
+###  https://w3id.org/pinfer/personal-data#AccountNumber
 :AccountNumber rdf:type owl:Class ;
                rdfs:subClassOf :AccountIdentifiers .
 
 
-###  https://w3id.org/pinfer/personal-data##Acquantainces
+###  https://w3id.org/pinfer/personal-data#Acquantainces
 :Acquantainces rdf:type owl:Class ;
                rdfs:subClassOf :SocialNetwork .
 
 
-###  https://w3id.org/pinfer/personal-data##ApartmentsOwned
+###  https://w3id.org/pinfer/personal-data#Agreeableness
+:Agreeableness rdf:type owl:Class ;
+               rdfs:subClassOf :FiveFactorModel .
+
+
+###  https://w3id.org/pinfer/personal-data#ApartmentsOwned
 :ApartmentsOwned rdf:type owl:Class ;
                  rdfs:subClassOf :HousesOwned .
 
 
-###  https://w3id.org/pinfer/personal-data##Associations
+###  https://w3id.org/pinfer/personal-data#Associations
 :Associations rdf:type owl:Class ;
               rdfs:subClassOf :SocialNetwork .
 
 
-###  https://w3id.org/pinfer/personal-data##Attitude
+###  https://w3id.org/pinfer/personal-data#Attitude
 :Attitude rdf:type owl:Class ;
           rdfs:subClassOf :Behavioral .
 
 
-###  https://w3id.org/pinfer/personal-data##Authentication
+###  https://w3id.org/pinfer/personal-data#Authentication
 :Authentication rdf:type owl:Class ;
                 rdfs:subClassOf :Internal .
 
 
-###  https://w3id.org/pinfer/personal-data##BankAccount
+###  https://w3id.org/pinfer/personal-data#BankAccount
 :BankAccount rdf:type owl:Class ;
              rdfs:subClassOf :Account .
 
 
-###  https://w3id.org/pinfer/personal-data##Behavioral
+###  https://w3id.org/pinfer/personal-data#Behavioral
 :Behavioral rdf:type owl:Class ;
             rdfs:subClassOf :External .
 
 
-###  https://w3id.org/pinfer/personal-data##Biometrics
+###  https://w3id.org/pinfer/personal-data#Biometrics
 :Biometrics rdf:type owl:Class ;
             rdfs:subClassOf :Indentification .
 
 
-###  https://w3id.org/pinfer/personal-data##BloodType
+###  https://w3id.org/pinfer/personal-data#BloodType
 :BloodType rdf:type owl:Class ;
            rdfs:subClassOf :MedicalHealth .
 
 
-###  https://w3id.org/pinfer/personal-data##BrowserFingerprint
+###  https://w3id.org/pinfer/personal-data#BrowserFingerprint
 :BrowserFingerprint rdf:type owl:Class ;
                     rdfs:subClassOf :DeviceBased .
 
 
-###  https://w3id.org/pinfer/personal-data##BrowsingBehaviour
+###  https://w3id.org/pinfer/personal-data#BrowsingBehaviour
 :BrowsingBehaviour rdf:type owl:Class ;
                    rdfs:subClassOf :Behavioral .
 
 
-###  https://w3id.org/pinfer/personal-data##CallLogs
+###  https://w3id.org/pinfer/personal-data#CallLogs
 :CallLogs rdf:type owl:Class ;
           rdfs:subClassOf :Behavioral .
 
 
-###  https://w3id.org/pinfer/personal-data##CarsOwned
+###  https://w3id.org/pinfer/personal-data#CarsOwned
 :CarsOwned rdf:type owl:Class ;
            rdfs:subClassOf :Ownership .
 
 
-###  https://w3id.org/pinfer/personal-data##Certifications
+###  https://w3id.org/pinfer/personal-data#Certifications
 :Certifications rdf:type owl:Class ;
                 rdfs:subClassOf :Professional .
 
 
-###  https://w3id.org/pinfer/personal-data##Character
+###  https://w3id.org/pinfer/personal-data#Character
 :Character rdf:type owl:Class ;
            rdfs:subClassOf :PublicLife .
 
 
-###  https://w3id.org/pinfer/personal-data##Charges
+###  https://w3id.org/pinfer/personal-data#Charges
 :Charges rdf:type owl:Class ;
          rdfs:subClassOf :Criminal .
 
 
-###  https://w3id.org/pinfer/personal-data##CommunicationsMetadata
+###  https://w3id.org/pinfer/personal-data#CommunicationsMetadata
 :CommunicationsMetadata rdf:type owl:Class ;
                         rdfs:subClassOf :PublicLife .
 
 
-###  https://w3id.org/pinfer/personal-data##Connections
+###  https://w3id.org/pinfer/personal-data#Connections
 :Connections rdf:type owl:Class ;
              rdfs:subClassOf :SocialNetwork .
 
 
-###  https://w3id.org/pinfer/personal-data##Contact
+###  https://w3id.org/pinfer/personal-data#Conscientiousness
+:Conscientiousness rdf:type owl:Class ;
+                   rdfs:subClassOf :FiveFactorModel .
+
+
+###  https://w3id.org/pinfer/personal-data#Contact
 :Contact rdf:type owl:Class ;
          rdfs:subClassOf :Tracking .
 
 
-###  https://w3id.org/pinfer/personal-data##Convictions
+###  https://w3id.org/pinfer/personal-data#Convictions
 :Convictions rdf:type owl:Class ;
              rdfs:subClassOf :Criminal .
 
 
-###  https://w3id.org/pinfer/personal-data##Credit
+###  https://w3id.org/pinfer/personal-data#Credit
 :Credit rdf:type owl:Class ;
         rdfs:subClassOf :Financial ,
                         :Transactional .
 
 
-###  https://w3id.org/pinfer/personal-data##CreditCapacity
+###  https://w3id.org/pinfer/personal-data#CreditCapacity
 :CreditCapacity rdf:type owl:Class ;
                 rdfs:subClassOf :Credit .
 
 
-###  https://w3id.org/pinfer/personal-data##CreditCardNumber
+###  https://w3id.org/pinfer/personal-data#CreditCardNumber
 :CreditCardNumber rdf:type owl:Class ;
                   rdfs:subClassOf :AccountIdentifiers .
 
 
-###  https://w3id.org/pinfer/personal-data##CreditRecords
+###  https://w3id.org/pinfer/personal-data#CreditRecords
 :CreditRecords rdf:type owl:Class ;
                rdfs:subClassOf :Credit .
 
 
-###  https://w3id.org/pinfer/personal-data##CreditScore
+###  https://w3id.org/pinfer/personal-data#CreditScore
 :CreditScore rdf:type owl:Class ;
              rdfs:subClassOf :CreditWorthiness .
 
 
-###  https://w3id.org/pinfer/personal-data##CreditStanding
+###  https://w3id.org/pinfer/personal-data#CreditStanding
 :CreditStanding rdf:type owl:Class ;
                 rdfs:subClassOf :Credit .
 
 
-###  https://w3id.org/pinfer/personal-data##CreditWorthiness
+###  https://w3id.org/pinfer/personal-data#CreditWorthiness
 :CreditWorthiness rdf:type owl:Class ;
                   rdfs:subClassOf :Credit .
 
 
-###  https://w3id.org/pinfer/personal-data##Criminal
+###  https://w3id.org/pinfer/personal-data#Criminal
 :Criminal rdf:type owl:Class ;
           rdfs:subClassOf :Social .
 
 
-###  https://w3id.org/pinfer/personal-data##DNACode
+###  https://w3id.org/pinfer/personal-data#DNACode
 :DNACode rdf:type owl:Class ;
          rdfs:subClassOf :MedicalHealth .
 
 
-###  https://w3id.org/pinfer/personal-data##Demeanor
+###  https://w3id.org/pinfer/personal-data#Demeanor
 :Demeanor rdf:type owl:Class ;
           rdfs:subClassOf :Behavioral .
 
 
-###  https://w3id.org/pinfer/personal-data##Demographic
+###  https://w3id.org/pinfer/personal-data#Demographic
 :Demographic rdf:type owl:Class ;
              rdfs:subClassOf :External .
 
 
-###  https://w3id.org/pinfer/personal-data##DeviceBased
+###  https://w3id.org/pinfer/personal-data#DeviceBased
 :DeviceBased rdf:type owl:Class ;
              rdfs:subClassOf :Tracking .
 
 
-###  https://w3id.org/pinfer/personal-data##Dialects
+###  https://w3id.org/pinfer/personal-data#Dialects
 :Dialects rdf:type owl:Class ;
           rdfs:subClassOf :Languages .
 
 
-###  https://w3id.org/pinfer/personal-data##Disabilities
+###  https://w3id.org/pinfer/personal-data#Disabilities
 :Disabilities rdf:type owl:Class ;
               rdfs:subClassOf :MedicalHealth .
 
 
-###  https://w3id.org/pinfer/personal-data##DisciplinaryActions
+###  https://w3id.org/pinfer/personal-data#DisciplinaryActions
 :DisciplinaryActions rdf:type owl:Class ;
                      rdfs:subClassOf :Professional .
 
 
-###  https://w3id.org/pinfer/personal-data##Dislikes
+###  https://w3id.org/pinfer/personal-data#Dislikes
 :Dislikes rdf:type owl:Class ;
           rdfs:subClassOf :Interests .
 
 
-###  https://w3id.org/pinfer/personal-data##Divorces
+###  https://w3id.org/pinfer/personal-data#Divorces
 :Divorces rdf:type owl:Class ;
           rdfs:subClassOf :FamilyStructure .
 
 
-###  https://w3id.org/pinfer/personal-data##DrugTestResults
+###  https://w3id.org/pinfer/personal-data#DrugTestResults
 :DrugTestResults rdf:type owl:Class ;
                  rdfs:subClassOf :MedicalHealth .
 
 
-###  https://w3id.org/pinfer/personal-data##Email
+###  https://w3id.org/pinfer/personal-data#Email
 :Email rdf:type owl:Class ;
        rdfs:subClassOf :Contact .
 
 
-###  https://w3id.org/pinfer/personal-data##EmploymentHistory
+###  https://w3id.org/pinfer/personal-data#EmploymentHistory
 :EmploymentHistory rdf:type owl:Class ;
                    rdfs:subClassOf :Professional .
 
 
-###  https://w3id.org/pinfer/personal-data##Ethnicity
+###  https://w3id.org/pinfer/personal-data#Ethnicity
 :Ethnicity rdf:type owl:Class ;
            rdfs:subClassOf :External .
 
 
-###  https://w3id.org/pinfer/personal-data##Evaluations
+###  https://w3id.org/pinfer/personal-data#Evaluations
 :Evaluations rdf:type owl:Class ;
              rdfs:subClassOf :Professional .
 
 
-###  https://w3id.org/pinfer/personal-data##External
+###  https://w3id.org/pinfer/personal-data#External
 :External rdf:type owl:Class ;
           rdfs:subClassOf :PersonalData .
 
 
-###  https://w3id.org/pinfer/personal-data##Family
+###  https://w3id.org/pinfer/personal-data#Extraversion
+:Extraversion rdf:type owl:Class ;
+              rdfs:subClassOf :FiveFactorModel .
+
+
+###  https://w3id.org/pinfer/personal-data#Family
 :Family rdf:type owl:Class ;
         rdfs:subClassOf :Social .
 
 
-###  https://w3id.org/pinfer/personal-data##FamilyHealthHistory
+###  https://w3id.org/pinfer/personal-data#FamilyHealthHistory
 :FamilyHealthHistory rdf:type owl:Class ;
                      rdfs:subClassOf :HealthHistory .
 
 
-###  https://w3id.org/pinfer/personal-data##FamilyStructure
+###  https://w3id.org/pinfer/personal-data#FamilyStructure
 :FamilyStructure rdf:type owl:Class ;
                  rdfs:subClassOf :Family .
 
 
-###  https://w3id.org/pinfer/personal-data##FavouriteColors
+###  https://w3id.org/pinfer/personal-data#FavouriteColors
 :FavouriteColors rdf:type owl:Class ;
                  rdfs:subClassOf :Favourites .
 
 
-###  https://w3id.org/pinfer/personal-data##FavouriteFoods
+###  https://w3id.org/pinfer/personal-data#FavouriteFoods
 :FavouriteFoods rdf:type owl:Class ;
                 rdfs:subClassOf :Favourites .
 
 
-###  https://w3id.org/pinfer/personal-data##FavouriteMusic
+###  https://w3id.org/pinfer/personal-data#FavouriteMusic
 :FavouriteMusic rdf:type owl:Class ;
                 rdfs:subClassOf :Favourites .
 
 
-###  https://w3id.org/pinfer/personal-data##Favourites
+###  https://w3id.org/pinfer/personal-data#Favourites
 :Favourites rdf:type owl:Class ;
             rdfs:subClassOf :Preferences .
 
 
-###  https://w3id.org/pinfer/personal-data##Fetishes
+###  https://w3id.org/pinfer/personal-data#Fetishes
 :Fetishes rdf:type owl:Class ;
           rdfs:subClassOf :Sexual .
 
 
-###  https://w3id.org/pinfer/personal-data##Financial
+###  https://w3id.org/pinfer/personal-data#Financial
 :Financial rdf:type owl:Class ;
            rdfs:subClassOf :PersonalData .
 
 
-###  https://w3id.org/pinfer/personal-data##Fingerprints
+###  https://w3id.org/pinfer/personal-data#Fingerprints
 :Fingerprints rdf:type owl:Class ;
               rdfs:subClassOf :Biometrics .
 
 
-###  https://w3id.org/pinfer/personal-data##Friends
+###  https://w3id.org/pinfer/personal-data#FiveFactorModel
+:FiveFactorModel rdf:type owl:Class ;
+                 rdfs:subClassOf :Personality .
+
+
+###  https://w3id.org/pinfer/personal-data#Friends
 :Friends rdf:type owl:Class ;
          rdfs:subClassOf :SocialNetwork .
 
 
-###  https://w3id.org/pinfer/personal-data##GeneralReputation
+###  https://w3id.org/pinfer/personal-data#GeneralReputation
 :GeneralReputation rdf:type owl:Class ;
                    rdfs:subClassOf :PublicLife .
 
 
-###  https://w3id.org/pinfer/personal-data##Geographic
+###  https://w3id.org/pinfer/personal-data#Geographic
 :Geographic rdf:type owl:Class ;
             rdfs:subClassOf :Demographic .
 
 
-###  https://w3id.org/pinfer/personal-data##GroupMemberships
+###  https://w3id.org/pinfer/personal-data#GroupMemberships
 :GroupMemberships rdf:type owl:Class ;
                   rdfs:subClassOf :SocialNetwork .
 
 
-###  https://w3id.org/pinfer/personal-data##Health
+###  https://w3id.org/pinfer/personal-data#Health
 :Health rdf:type owl:Class ;
         rdfs:subClassOf :MedicalHealth .
 
 
-###  https://w3id.org/pinfer/personal-data##HealthHistory
+###  https://w3id.org/pinfer/personal-data#HealthHistory
 :HealthHistory rdf:type owl:Class ;
                rdfs:subClassOf :MedicalHealth .
 
 
-###  https://w3id.org/pinfer/personal-data##HealthRecords
+###  https://w3id.org/pinfer/personal-data#HealthRecords
 :HealthRecords rdf:type owl:Class ;
                rdfs:subClassOf :MedicalHealth .
 
 
-###  https://w3id.org/pinfer/personal-data##HousesOwned
+###  https://w3id.org/pinfer/personal-data#HousesOwned
 :HousesOwned rdf:type owl:Class ;
              rdfs:subClassOf :Ownership .
 
 
-###  https://w3id.org/pinfer/personal-data##IPAddress
+###  https://w3id.org/pinfer/personal-data#IPAddress
 :IPAddress rdf:type owl:Class ;
            rdfs:subClassOf :DeviceBased .
 
 
-###  https://w3id.org/pinfer/personal-data##Income
+###  https://w3id.org/pinfer/personal-data#Income
 :Income rdf:type owl:Class ;
         rdfs:subClassOf :Transactional .
 
 
-###  https://w3id.org/pinfer/personal-data##IncomeBrackets
+###  https://w3id.org/pinfer/personal-data#IncomeBrackets
 :IncomeBrackets rdf:type owl:Class ;
                 rdfs:subClassOf :Demographic .
 
 
-###  https://w3id.org/pinfer/personal-data##Indentification
+###  https://w3id.org/pinfer/personal-data#Indentification
 :Indentification rdf:type owl:Class ;
                  rdfs:subClassOf :External .
 
 
-###  https://w3id.org/pinfer/personal-data##IndividualHealthHistory
+###  https://w3id.org/pinfer/personal-data#IndividualHealthHistory
 :IndividualHealthHistory rdf:type owl:Class ;
                          rdfs:subClassOf :HealthHistory .
 
 
-###  https://w3id.org/pinfer/personal-data##Intentions
+###  https://w3id.org/pinfer/personal-data#Intentions
 :Intentions rdf:type owl:Class ;
             rdfs:subClassOf :Preferences .
 
 
-###  https://w3id.org/pinfer/personal-data##Interactions
+###  https://w3id.org/pinfer/personal-data#Interactions
 :Interactions rdf:type owl:Class ;
               rdfs:subClassOf :PublicLife .
 
 
-###  https://w3id.org/pinfer/personal-data##Interests
+###  https://w3id.org/pinfer/personal-data#Interests
 :Interests rdf:type owl:Class ;
            rdfs:subClassOf :Preferences .
 
 
-###  https://w3id.org/pinfer/personal-data##Internal
+###  https://w3id.org/pinfer/personal-data#Internal
 :Internal rdf:type owl:Class ;
           rdfs:subClassOf :PersonalData .
 
 
-###  https://w3id.org/pinfer/personal-data##Interviews
+###  https://w3id.org/pinfer/personal-data#Interviews
 :Interviews rdf:type owl:Class ;
             rdfs:subClassOf :Professional .
 
 
-###  https://w3id.org/pinfer/personal-data##Job
+###  https://w3id.org/pinfer/personal-data#Job
 :Job rdf:type owl:Class ;
      rdfs:subClassOf :Professional .
 
 
-###  https://w3id.org/pinfer/personal-data##KnowledgeBelief
+###  https://w3id.org/pinfer/personal-data#KnowledgeBelief
 :KnowledgeBelief rdf:type owl:Class ;
                  rdfs:subClassOf :Internal .
 
 
-###  https://w3id.org/pinfer/personal-data##Languages
+###  https://w3id.org/pinfer/personal-data#Languages
 :Languages rdf:type owl:Class ;
            rdfs:subClassOf :Ethnicity .
 
 
-###  https://w3id.org/pinfer/personal-data##Likes
+###  https://w3id.org/pinfer/personal-data#LikedMovies
+:LikedMovies rdf:type owl:Class ;
+             rdfs:subClassOf :Likes .
+
+
+###  https://w3id.org/pinfer/personal-data#Likes
 :Likes rdf:type owl:Class ;
        rdfs:subClassOf :Interests .
 
 
-###  https://w3id.org/pinfer/personal-data##LinksClicked
+###  https://w3id.org/pinfer/personal-data#LinksClicked
 :LinksClicked rdf:type owl:Class ;
               rdfs:subClassOf :Behavioral .
 
 
-###  https://w3id.org/pinfer/personal-data##LoanRecords
+###  https://w3id.org/pinfer/personal-data#LoanRecords
 :LoanRecords rdf:type owl:Class ;
              rdfs:subClassOf :Transactional .
 
 
-###  https://w3id.org/pinfer/personal-data##MACAddress
+###  https://w3id.org/pinfer/personal-data#MACAddress
 :MACAddress rdf:type owl:Class ;
             rdfs:subClassOf :DeviceBased .
 
 
-###  https://w3id.org/pinfer/personal-data##MaritalStatus
+###  https://w3id.org/pinfer/personal-data#MaritalStatus
 :MaritalStatus rdf:type owl:Class ;
                rdfs:subClassOf :PublicLife .
 
 
-###  https://w3id.org/pinfer/personal-data##Marriages
+###  https://w3id.org/pinfer/personal-data#Marriages
 :Marriages rdf:type owl:Class ;
            rdfs:subClassOf :FamilyStructure .
 
 
-###  https://w3id.org/pinfer/personal-data##MedicalHealth
+###  https://w3id.org/pinfer/personal-data#MeaningSeekers
+:MeaningSeekers rdf:type owl:Class ;
+                rdfs:subClassOf :PleasureSeeking .
+
+
+###  https://w3id.org/pinfer/personal-data#MedicalHealth
 :MedicalHealth rdf:type owl:Class ;
                rdfs:subClassOf :External .
 
 
-###  https://w3id.org/pinfer/personal-data##MentalHealth
+###  https://w3id.org/pinfer/personal-data#MentalHealth
 :MentalHealth rdf:type owl:Class ;
               rdfs:subClassOf :Health .
 
 
-###  https://w3id.org/pinfer/personal-data##Name
+###  https://w3id.org/pinfer/personal-data#Name
 :Name rdf:type owl:Class ;
       rdfs:subClassOf :Indentification .
 
 
-###  https://w3id.org/pinfer/personal-data##OfficialID
+###  https://w3id.org/pinfer/personal-data#Neuroticism
+:Neuroticism rdf:type owl:Class ;
+             rdfs:subClassOf :FiveFactorModel .
+
+
+###  https://w3id.org/pinfer/personal-data#OfficialID
 :OfficialID rdf:type owl:Class ;
             rdfs:subClassOf :Indentification .
 
 
-###  https://w3id.org/pinfer/personal-data##Offspring
+###  https://w3id.org/pinfer/personal-data#Offspring
 :Offspring rdf:type owl:Class ;
            rdfs:subClassOf :FamilyStructure .
 
 
-###  https://w3id.org/pinfer/personal-data##Opinions
+###  https://w3id.org/pinfer/personal-data#Openness
+:Openness rdf:type owl:Class ;
+          rdfs:subClassOf :FiveFactorModel .
+
+
+###  https://w3id.org/pinfer/personal-data#Opinions
 :Opinions rdf:type owl:Class ;
           rdfs:subClassOf :Preferences .
 
 
-###  https://w3id.org/pinfer/personal-data##Origin
+###  https://w3id.org/pinfer/personal-data#Origin
 :Origin rdf:type owl:Class ;
         rdfs:subClassOf :Ethnicity .
 
 
-###  https://w3id.org/pinfer/personal-data##Ownership
+###  https://w3id.org/pinfer/personal-data#Ownership
 :Ownership rdf:type owl:Class ;
            rdfs:subClassOf :Financial .
 
 
-###  https://w3id.org/pinfer/personal-data##PIN
+###  https://w3id.org/pinfer/personal-data#PIN
 :PIN rdf:type owl:Class ;
      rdfs:subClassOf :Authentication .
 
 
-###  https://w3id.org/pinfer/personal-data##Pardons
+###  https://w3id.org/pinfer/personal-data#Pardons
 :Pardons rdf:type owl:Class ;
          rdfs:subClassOf :Criminal .
 
 
-###  https://w3id.org/pinfer/personal-data##Parents
+###  https://w3id.org/pinfer/personal-data#Parents
 :Parents rdf:type owl:Class ;
          rdfs:subClassOf :FamilyStructure .
 
 
-###  https://w3id.org/pinfer/personal-data##Passwords
+###  https://w3id.org/pinfer/personal-data#Passwords
 :Passwords rdf:type owl:Class ;
            rdfs:subClassOf :Authentication .
 
 
-###  https://w3id.org/pinfer/personal-data##PersonalData
+###  https://w3id.org/pinfer/personal-data#PersonalData
 :PersonalData rdf:type owl:Class .
 
 
-###  https://w3id.org/pinfer/personal-data##PersonalPossessions
+###  https://w3id.org/pinfer/personal-data#PersonalPossessions
 :PersonalPossessions rdf:type owl:Class ;
                      rdfs:subClassOf :Ownership .
 
 
-###  https://w3id.org/pinfer/personal-data##PhilosophicalBeliefs
+###  https://w3id.org/pinfer/personal-data#Personality
+:Personality rdf:type owl:Class ;
+             rdfs:subClassOf :Behavioral .
+
+
+###  https://w3id.org/pinfer/personal-data#PhilosophicalBeliefs
 :PhilosophicalBeliefs rdf:type owl:Class ;
                       rdfs:subClassOf :KnowledgeBelief .
 
 
-###  https://w3id.org/pinfer/personal-data##PhysicalAddress
+###  https://w3id.org/pinfer/personal-data#PhysicalAddress
 :PhysicalAddress rdf:type owl:Class ;
                  rdfs:subClassOf :Contact .
 
 
-###  https://w3id.org/pinfer/personal-data##PhysicalHealth
+###  https://w3id.org/pinfer/personal-data#PhysicalHealth
 :PhysicalHealth rdf:type owl:Class ;
                 rdfs:subClassOf :Health .
 
 
-###  https://w3id.org/pinfer/personal-data##PhysicalTraits
+###  https://w3id.org/pinfer/personal-data#PhysicalTraits
 :PhysicalTraits rdf:type owl:Class ;
                 rdfs:subClassOf :Demographic .
 
 
-###  https://w3id.org/pinfer/personal-data##Picture
+###  https://w3id.org/pinfer/personal-data#Picture
 :Picture rdf:type owl:Class ;
          rdfs:subClassOf :Indentification .
 
 
-###  https://w3id.org/pinfer/personal-data##PoliticalAffiliations
+###  https://w3id.org/pinfer/personal-data#PleasureSeekers
+:PleasureSeekers rdf:type owl:Class ;
+                 rdfs:subClassOf :PleasureSeeking .
+
+
+###  https://w3id.org/pinfer/personal-data#PleasureSeeking
+:PleasureSeeking rdf:type owl:Class ;
+                 rdfs:subClassOf :Personality .
+
+
+###  https://w3id.org/pinfer/personal-data#PoliticalAffiliations
 :PoliticalAffiliations rdf:type owl:Class ;
                        rdfs:subClassOf :PublicLife .
 
 
-###  https://w3id.org/pinfer/personal-data##Preferences
+###  https://w3id.org/pinfer/personal-data#Preferences
 :Preferences rdf:type owl:Class ;
              rdfs:subClassOf :Internal .
 
 
-###  https://w3id.org/pinfer/personal-data##Prescriptions
+###  https://w3id.org/pinfer/personal-data#Prescriptions
 :Prescriptions rdf:type owl:Class ;
                rdfs:subClassOf :MedicalHealth .
 
 
-###  https://w3id.org/pinfer/personal-data##Proclivities
+###  https://w3id.org/pinfer/personal-data#Proclivities
 :Proclivities rdf:type owl:Class ;
               rdfs:subClassOf :Sexual .
 
 
-###  https://w3id.org/pinfer/personal-data##Professional
+###  https://w3id.org/pinfer/personal-data#Professional
 :Professional rdf:type owl:Class ;
               rdfs:subClassOf :Social .
 
 
-###  https://w3id.org/pinfer/personal-data##PublicLife
+###  https://w3id.org/pinfer/personal-data#PublicLife
 :PublicLife rdf:type owl:Class ;
             rdfs:subClassOf :Social .
 
 
-###  https://w3id.org/pinfer/personal-data##Purchases
+###  https://w3id.org/pinfer/personal-data#Purchases
 :Purchases rdf:type owl:Class ;
            rdfs:subClassOf :Transactional .
 
 
-###  https://w3id.org/pinfer/personal-data##PurchasesAndSpendingHabits
+###  https://w3id.org/pinfer/personal-data#PurchasesAndSpendingHabits
 :PurchasesAndSpendingHabits rdf:type owl:Class ;
                             rdfs:subClassOf :Transactional .
 
 
-###  https://w3id.org/pinfer/personal-data##Race
+###  https://w3id.org/pinfer/personal-data#Race
 :Race rdf:type owl:Class ;
       rdfs:subClassOf :Ethnicity .
 
 
-###  https://w3id.org/pinfer/personal-data##References
+###  https://w3id.org/pinfer/personal-data#References
 :References rdf:type owl:Class ;
             rdfs:subClassOf :Professional .
 
 
-###  https://w3id.org/pinfer/personal-data##Relationships
+###  https://w3id.org/pinfer/personal-data#Relationships
 :Relationships rdf:type owl:Class ;
                rdfs:subClassOf :Family .
 
 
-###  https://w3id.org/pinfer/personal-data##Religion
+###  https://w3id.org/pinfer/personal-data#Religion
 :Religion rdf:type owl:Class ;
           rdfs:subClassOf :PublicLife .
 
 
-###  https://w3id.org/pinfer/personal-data##ReligiousBeliefs
+###  https://w3id.org/pinfer/personal-data#ReligiousBeliefs
 :ReligiousBeliefs rdf:type owl:Class ;
                   rdfs:subClassOf :KnowledgeBelief .
 
 
-###  https://w3id.org/pinfer/personal-data##Retina
+###  https://w3id.org/pinfer/personal-data#Retina
 :Retina rdf:type owl:Class ;
         rdfs:subClassOf :Biometrics .
 
 
-###  https://w3id.org/pinfer/personal-data##Salary
+###  https://w3id.org/pinfer/personal-data#Salary
 :Salary rdf:type owl:Class ;
         rdfs:subClassOf :Professional .
 
 
-###  https://w3id.org/pinfer/personal-data##Sales
+###  https://w3id.org/pinfer/personal-data#Sales
 :Sales rdf:type owl:Class ;
        rdfs:subClassOf :Transactional .
 
 
-###  https://w3id.org/pinfer/personal-data##School
+###  https://w3id.org/pinfer/personal-data#School
 :School rdf:type owl:Class ;
         rdfs:subClassOf :Professional .
 
 
-###  https://w3id.org/pinfer/personal-data##SecretText
+###  https://w3id.org/pinfer/personal-data#SecretText
 :SecretText rdf:type owl:Class ;
             rdfs:subClassOf :Authentication .
 
 
-###  https://w3id.org/pinfer/personal-data##Sexual
+###  https://w3id.org/pinfer/personal-data#Sexual
 :Sexual rdf:type owl:Class ;
         rdfs:subClassOf :External .
 
 
-###  https://w3id.org/pinfer/personal-data##SexualHistory
+###  https://w3id.org/pinfer/personal-data#SexualHistory
 :SexualHistory rdf:type owl:Class ;
                rdfs:subClassOf :Sexual .
 
 
-###  https://w3id.org/pinfer/personal-data##SexualPreference
+###  https://w3id.org/pinfer/personal-data#SexualPreference
 :SexualPreference rdf:type owl:Class ;
                   rdfs:subClassOf :Sexual .
 
 
-###  https://w3id.org/pinfer/personal-data##Siblings
+###  https://w3id.org/pinfer/personal-data#Siblings
 :Siblings rdf:type owl:Class ;
           rdfs:subClassOf :FamilyStructure .
 
 
-###  https://w3id.org/pinfer/personal-data##Social
+###  https://w3id.org/pinfer/personal-data#Social
 :Social rdf:type owl:Class ;
         rdfs:subClassOf :PersonalData .
 
 
-###  https://w3id.org/pinfer/personal-data##SocialNetwork
+###  https://w3id.org/pinfer/personal-data#SocialNetwork
 :SocialNetwork rdf:type owl:Class ;
                rdfs:subClassOf :Social .
 
 
-###  https://w3id.org/pinfer/personal-data##SocialStatus
+###  https://w3id.org/pinfer/personal-data#SocialStatus
 :SocialStatus rdf:type owl:Class ;
               rdfs:subClassOf :PublicLife .
 
 
-###  https://w3id.org/pinfer/personal-data##Taxes
+###  https://w3id.org/pinfer/personal-data#Taxes
 :Taxes rdf:type owl:Class ;
        rdfs:subClassOf :Transactional .
 
 
-###  https://w3id.org/pinfer/personal-data##TelephoneNumber
+###  https://w3id.org/pinfer/personal-data#TelephoneNumber
 :TelephoneNumber rdf:type owl:Class ;
                  rdfs:subClassOf :Contact .
 
 
-###  https://w3id.org/pinfer/personal-data##Thoughts
+###  https://w3id.org/pinfer/personal-data#Thoughts
 :Thoughts rdf:type owl:Class ;
           rdfs:subClassOf :KnowledgeBelief .
 
 
-###  https://w3id.org/pinfer/personal-data##Tracking
+###  https://w3id.org/pinfer/personal-data#Tracking
 :Tracking rdf:type owl:Class ;
           rdfs:subClassOf :PersonalData .
 
 
-###  https://w3id.org/pinfer/personal-data##Transactional
+###  https://w3id.org/pinfer/personal-data#Transactional
 :Transactional rdf:type owl:Class ;
                rdfs:subClassOf :Financial .
 
 
-###  https://w3id.org/pinfer/personal-data##Transactions
+###  https://w3id.org/pinfer/personal-data#Transactions
 :Transactions rdf:type owl:Class ;
               rdfs:subClassOf :Transactional .
 
 
-###  https://w3id.org/pinfer/personal-data##UID
+###  https://w3id.org/pinfer/personal-data#UID
 :UID rdf:type owl:Class ;
      rdfs:subClassOf :Indentification .
 
 
-###  https://w3id.org/pinfer/personal-data##Username
+###  https://w3id.org/pinfer/personal-data#Username
 :Username rdf:type owl:Class ;
           rdfs:subClassOf :Indentification .
 
 
-###  https://w3id.org/pinfer/personal-data##WorkHistory
+###  https://w3id.org/pinfer/personal-data#WorkHistory
 :WorkHistory rdf:type owl:Class ;
              rdfs:subClassOf :Professional .
 

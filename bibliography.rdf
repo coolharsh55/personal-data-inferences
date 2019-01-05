@@ -1,0 +1,2277 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/pinfer/bibliography#"
+     xml:base="https://w3id.org/pinfer/bibliography"
+     xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+     xmlns:address="http://schemas.talis.com/2005/address/schema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:dcterms="http://purl.org/dc/terms/"
+     xmlns:z="http://www.zotero.org/namespaces/export#"
+     xmlns:bibo="http://purl.org/ontology/bibo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <owl:Ontology rdf:about="https://w3id.org/pinfer/bibliography"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/terms/abstract -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/abstract"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/date"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/isPartOf -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/isPartOf"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/language -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/language"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/publisher -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/publisher"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://purl.org/ontology/bibo/authorList -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/ontology/bibo/authorList"/>
+    
+
+
+    <!-- http://purl.org/ontology/bibo/doi -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/ontology/bibo/doi"/>
+    
+
+
+    <!-- http://purl.org/ontology/bibo/editor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/ontology/bibo/editor"/>
+    
+
+
+    <!-- http://purl.org/ontology/bibo/editorList -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/ontology/bibo/editorList"/>
+    
+
+
+    <!-- http://purl.org/ontology/bibo/isbn13 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/ontology/bibo/isbn13"/>
+    
+
+
+    <!-- http://purl.org/ontology/bibo/issn -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/ontology/bibo/issn"/>
+    
+
+
+    <!-- http://purl.org/ontology/bibo/issue -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/ontology/bibo/issue"/>
+    
+
+
+    <!-- http://purl.org/ontology/bibo/lccn -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/ontology/bibo/lccn"/>
+    
+
+
+    <!-- http://purl.org/ontology/bibo/numPages -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/ontology/bibo/numPages"/>
+    
+
+
+    <!-- http://purl.org/ontology/bibo/pages -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/ontology/bibo/pages"/>
+    
+
+
+    <!-- http://purl.org/ontology/bibo/presentedAt -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/ontology/bibo/presentedAt"/>
+    
+
+
+    <!-- http://purl.org/ontology/bibo/shortTitle -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/ontology/bibo/shortTitle"/>
+    
+
+
+    <!-- http://purl.org/ontology/bibo/uri -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/ontology/bibo/uri"/>
+    
+
+
+    <!-- http://purl.org/ontology/bibo/volume -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/ontology/bibo/volume"/>
+    
+
+
+    <!-- http://purl.org/vocab/resourcelist/schema#resource -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/resourcelist/schema#resource"/>
+    
+
+
+    <!-- http://schemas.talis.com/2005/address/schema#localityName -->
+
+    <owl:AnnotationProperty rdf:about="http://schemas.talis.com/2005/address/schema#localityName"/>
+    
+
+
+    <!-- http://www.zotero.org/namespaces/export#accessDate -->
+
+    <owl:AnnotationProperty rdf:about="http://www.zotero.org/namespaces/export#accessDate"/>
+    
+
+
+    <!-- http://www.zotero.org/namespaces/export#extra -->
+
+    <owl:AnnotationProperty rdf:about="http://www.zotero.org/namespaces/export#extra"/>
+    
+
+
+    <!-- http://www.zotero.org/namespaces/export#repository -->
+
+    <owl:AnnotationProperty rdf:about="http://www.zotero.org/namespaces/export#repository"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/givenname -->
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/givenname"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/name -->
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/name"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/surname -->
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/surname"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/ontology/bibo/AcademicArticle -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bibo/AcademicArticle"/>
+    
+
+
+    <!-- http://purl.org/ontology/bibo/Article -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bibo/Article"/>
+    
+
+
+    <!-- http://purl.org/ontology/bibo/Book -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bibo/Book"/>
+    
+
+
+    <!-- http://purl.org/ontology/bibo/BookSection -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bibo/BookSection"/>
+    
+
+
+    <!-- http://purl.org/ontology/bibo/Conference -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bibo/Conference"/>
+    
+
+
+    <!-- http://purl.org/ontology/bibo/EditedBook -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bibo/EditedBook"/>
+    
+
+
+    <!-- http://purl.org/ontology/bibo/Issue -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bibo/Issue"/>
+    
+
+
+    <!-- http://purl.org/ontology/bibo/Journal -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bibo/Journal"/>
+    
+
+
+    <!-- http://purl.org/ontology/bibo/Proceedings -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bibo/Proceedings"/>
+    
+
+
+    <!-- http://purl.org/ontology/bibo/Report -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bibo/Report"/>
+    
+
+
+    <!-- http://purl.org/ontology/bibo/Series -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bibo/Series"/>
+    
+
+
+    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq -->
+
+    <owl:Class rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+    
+
+
+    <!-- http://www.zotero.org/namespaces/export#UserItem -->
+
+    <owl:Class rdf:about="http://www.zotero.org/namespaces/export#UserItem"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Organization -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Organization"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Person -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Person"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://doi.acm.org/10.1145/3099023.3099103 -->
+
+    <owl:NamedIndividual rdf:about="http://doi.acm.org/10.1145/3099023.3099103">
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+        <dcterms:abstract>The use of social media, like Facebook, Twitter and LinkedIn, is nowadays very common and quite for sure each one of us has at least a digital profile on them. The information left of these platforms such as likes, posts, tweets and photos are very informative and can be used for deducting our preferences, tendencies and behaviors. The analysis of the social media footprints has become a relevant research topic in the last decade and many works have demonstrated how to extract some traits of the user&apos;s affective sphere. In this paper, we focus on the prediction of empathic tendencies of a subject as an index of the influence of emotions during decisional processes. This value can be included in the user profile and can be relevant in some scenarios, such as music and movie recommender systems, where the emotional component is strongly delineated. We propose an approach of empathy level prediction based on a linear regression algorithm over Facebook profiles. We use a word2vec representation of the textual contents of the user&apos;s time-line posts, a LDA and SVD vector representation of the user&apos;s likes and other general descriptive data. The evaluation performed has demonstrated the validity of the approach for predicting the empathy tendency and the results have showed some relevant correlations with some specific groups of user&apos;s descriptive features.</dcterms:abstract>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>Marco</foaf:givenname>
+                <foaf:surname>Polignano</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>Pierpaolo</foaf:givenname>
+                <foaf:surname>Basile</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>Gaetano</foaf:givenname>
+                <foaf:surname>Rossiello</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>Marco</foaf:givenname>
+                <foaf:surname>de Gemmis</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>Giovanni</foaf:givenname>
+                <foaf:surname>Semeraro</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:isPartOf>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/Proceedings"/>
+                <dcterms:date>2017</dcterms:date>
+                <dcterms:isPartOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Series"/>
+                        <dcterms:title>UMAP &apos;17</dcterms:title>
+                    </rdf:Description>
+                </dcterms:isPartOf>
+                <dcterms:publisher>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+                        <address:localityName>New York, NY, USA</address:localityName>
+                        <foaf:name>ACM</foaf:name>
+                    </rdf:Description>
+                </dcterms:publisher>
+                <dcterms:title>Adjunct Publication of the 25th Conference on User Modeling, Adaptation and Personalization</dcterms:title>
+                <bibo:isbn13>978-1-4503-5067-9</bibo:isbn13>
+            </rdf:Description>
+        </dcterms:isPartOf>
+        <dcterms:title>User&apos;s Social Media Profile As Predictor of Empathy</dcterms:title>
+        <bibo:authorList>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+            </rdf:Description>
+        </bibo:authorList>
+        <bibo:doi>10/gfrfd4</bibo:doi>
+        <bibo:pages>386–390</bibo:pages>
+        <bibo:uri>http://doi.acm.org/10.1145/3099023.3099103</bibo:uri>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://doi.acm.org/10.1145/3099023.3099105 -->
+
+    <owl:NamedIndividual rdf:about="http://doi.acm.org/10.1145/3099023.3099105">
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+        <dcterms:abstract>In human computer interaction, some of the user activities are intentional, and other unintentional, but user interfaces are usually designed to react only to intentional commands. However, user&apos;s unintentional activity contains many clues about a user, that can be beneficial to take into account in designing appropriate response. Current study focuses on these unintentional traces, that left behind by use of standard input devices, keyboard and mouse, and specifically, we try to predict users age and gender. Mouse and keyboard data used in this study, are collected in six different systems between 2011 and 2017 in total from 1519 subjects. Some supervised machine learning models yield to f-scores over 0.9 when predicted both user age or gender.</dcterms:abstract>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>Avar</foaf:givenname>
+                <foaf:surname>Pentel</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:isPartOf>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/Proceedings"/>
+                <dcterms:date>2017</dcterms:date>
+                <dcterms:isPartOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Series"/>
+                        <dcterms:title>UMAP &apos;17</dcterms:title>
+                    </rdf:Description>
+                </dcterms:isPartOf>
+                <dcterms:publisher>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+                        <address:localityName>New York, NY, USA</address:localityName>
+                        <foaf:name>ACM</foaf:name>
+                    </rdf:Description>
+                </dcterms:publisher>
+                <dcterms:title>Adjunct Publication of the 25th Conference on User Modeling, Adaptation and Personalization</dcterms:title>
+                <bibo:isbn13>978-1-4503-5067-9</bibo:isbn13>
+            </rdf:Description>
+        </dcterms:isPartOf>
+        <dcterms:title>Predicting Age and Gender by Keystroke Dynamics and Mouse Patterns</dcterms:title>
+        <bibo:authorList>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+            </rdf:Description>
+        </bibo:authorList>
+        <bibo:doi>10/gfrfd3</bibo:doi>
+        <bibo:pages>381–385</bibo:pages>
+        <bibo:uri>http://doi.acm.org/10.1145/3099023.3099105</bibo:uri>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://doi.acm.org/10.1145/3209219.3209224 -->
+
+    <owl:NamedIndividual rdf:about="http://doi.acm.org/10.1145/3209219.3209224">
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+        <dcterms:abstract>Inferring socio-demographic attributes of users is an important and challenging task that could help with personalization, recommendation, advertising, etc. Sensor data collected from mobile devices can be utilized for inferring such attributes. Previous works have focused on combining different types of sensors, such as applications, accelerometer, GPS, battery, and many others, to achieve this task. In this study, we were able to infer attributes, such as gender, age, marital status, and whether the user has children, using solely the GPS sensor. We suggest a novel inference technique, which learns an embedding representation of preprocessed spatial GPS trajectories using an adaption of the Word2vec approach. Based on the embedding representation, we later train multiple classification models to achieve the inference goals. Our empirical results indicate that the suggested embedding approach outperforms a classification approach which does not take into consideration the embedding patterns. Experiments on real datasets collected from Android devices show that the proposed method achieves over 80% accuracy for various demographic prediction tasks.</dcterms:abstract>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>Adir</foaf:givenname>
+                <foaf:surname>Solomon</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>Ariel</foaf:givenname>
+                <foaf:surname>Bar</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>Chen</foaf:givenname>
+                <foaf:surname>Yanai</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>Bracha</foaf:givenname>
+                <foaf:surname>Shapira</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>Lior</foaf:givenname>
+                <foaf:surname>Rokach</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:isPartOf>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/Proceedings"/>
+                <dcterms:date>2018</dcterms:date>
+                <dcterms:isPartOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Series"/>
+                        <dcterms:title>UMAP &apos;18</dcterms:title>
+                    </rdf:Description>
+                </dcterms:isPartOf>
+                <dcterms:publisher>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+                        <address:localityName>New York, NY, USA</address:localityName>
+                        <foaf:name>ACM</foaf:name>
+                    </rdf:Description>
+                </dcterms:publisher>
+                <dcterms:title>Proceedings of the 26th Conference on User Modeling, Adaptation and Personalization</dcterms:title>
+                <bibo:isbn13>978-1-4503-5589-6</bibo:isbn13>
+            </rdf:Description>
+        </dcterms:isPartOf>
+        <dcterms:title>Predict Demographic Information Using Word2Vec on Spatial Trajectories</dcterms:title>
+        <bibo:authorList>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+            </rdf:Description>
+        </bibo:authorList>
+        <bibo:doi>10/gfrfdt</bibo:doi>
+        <bibo:pages>331–339</bibo:pages>
+        <bibo:uri>http://doi.acm.org/10.1145/3209219.3209224</bibo:uri>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://doi.acm.org/10.1145/3209219.3209226 -->
+
+    <owl:NamedIndividual rdf:about="http://doi.acm.org/10.1145/3209219.3209226">
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+        <dcterms:abstract>In this paper we present the results of a user study focusing on social relationships within small groups. The goal is to better understand how to incorporate the information about social relationships in group recommendation models. Our analysis, conducted on a data set of 150 participants in 41 groups deciding on a travel destination to visit together, brings out some intriguing outcomes. We demonstrate that social centrality is hardly an indicator of the social influence in the decision-making process of &quot;equality matching&quot; types of groups. However, socially central group members and socially close groups are significantly happier with group decisions than those who are loosely related. Moreover, in this paper we show that social relationships are indicators of other concepts relevant in group settings, therefore in group recommender systems as well.</dcterms:abstract>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>Amra</foaf:givenname>
+                <foaf:surname>Delic</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>Judith</foaf:givenname>
+                <foaf:surname>Masthoff</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>Julia</foaf:givenname>
+                <foaf:surname>Neidhardt</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>Hannes</foaf:givenname>
+                <foaf:surname>Werthner</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:isPartOf>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/Proceedings"/>
+                <dcterms:date>2018</dcterms:date>
+                <dcterms:isPartOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Series"/>
+                        <dcterms:title>UMAP &apos;18</dcterms:title>
+                    </rdf:Description>
+                </dcterms:isPartOf>
+                <dcterms:publisher>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+                        <address:localityName>New York, NY, USA</address:localityName>
+                        <foaf:name>ACM</foaf:name>
+                    </rdf:Description>
+                </dcterms:publisher>
+                <dcterms:title>Proceedings of the 26th Conference on User Modeling, Adaptation and Personalization</dcterms:title>
+                <bibo:isbn13>978-1-4503-5589-6</bibo:isbn13>
+            </rdf:Description>
+        </dcterms:isPartOf>
+        <dcterms:title>How to Use Social Relationships in Group Recommenders: Empirical Evidence</dcterms:title>
+        <bibo:authorList>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+            </rdf:Description>
+        </bibo:authorList>
+        <bibo:doi>10/gfrfdm</bibo:doi>
+        <bibo:pages>121–129</bibo:pages>
+        <bibo:shortTitle>How to Use Social Relationships in Group Recommenders</bibo:shortTitle>
+        <bibo:uri>http://doi.acm.org/10.1145/3209219.3209226</bibo:uri>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://doi.acm.org/10.1145/3209219.3209237 -->
+
+    <owl:NamedIndividual rdf:about="http://doi.acm.org/10.1145/3209219.3209237">
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+        <dcterms:abstract>The Location-Based Social Networks (LBSN) (e.g., Facebook, etc.) have many attributes (e.g., ratings, reviews, etc.) that play a crucial role for the Point-of-Interest (POI) recommendations. Unlike ratings, the reviews can help users to elaborate their consumption experience in terms of relevant factors of interest (aspects). Though some of the existing systems have exploited user reviews, most of them are less transparent and non-interpretable (as they conceal the reason behind recommendation). These reasons have motivated us towards explainable and interpretable recommendation. To the best of our knowledge, only a few of the researchers have exploited user reviews to incorporate the sentiment and opinions on different aspects for personalized and explainable POI recommendation. This paper proposes a model termed as ReEL (Review aware Explanation of Location Recommendation) which models the review-aspect correlation by exploiting deep neural network, formulates user-aspect bipartite relation as a bipartite graph, and models the explainable recommendation by using dense subgraph extraction and ranking-based techniques. The major contributions of this paper are: (i) it models users and POIs using the aspects posted on user reviews, and it provisions incorporation of multiple contexts (e.g., categorical, spatial, etc.) in POI recommendation, (ii) it formulates preference of users&apos; on aspects as a bipartite relation, represents it as a location-aspect bipartite graph, and models the explainable recommendation with the notion of ordered dense subgraph extraction using bipartite cores, shingles, and ranking-based techniques, and (iii) it extensively evaluates the proposed models using three real-world datasets and demonstrates an improvement of 5.8% to 29.5% on F-score metric, when compared to the relevant studies.</dcterms:abstract>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>Ramesh</foaf:givenname>
+                <foaf:surname>Baral</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>XiaoLong</foaf:givenname>
+                <foaf:surname>Zhu</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>S. S.</foaf:givenname>
+                <foaf:surname>Iyengar</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>Tao</foaf:givenname>
+                <foaf:surname>Li</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:isPartOf>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/Proceedings"/>
+                <dcterms:date>2018</dcterms:date>
+                <dcterms:isPartOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Series"/>
+                        <dcterms:title>UMAP &apos;18</dcterms:title>
+                    </rdf:Description>
+                </dcterms:isPartOf>
+                <dcterms:publisher>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+                        <address:localityName>New York, NY, USA</address:localityName>
+                        <foaf:name>ACM</foaf:name>
+                    </rdf:Description>
+                </dcterms:publisher>
+                <dcterms:title>Proceedings of the 26th Conference on User Modeling, Adaptation and Personalization</dcterms:title>
+                <bibo:isbn13>978-1-4503-5589-6</bibo:isbn13>
+            </rdf:Description>
+        </dcterms:isPartOf>
+        <dcterms:title>ReEL: Review Aware Explanation of Location Recommendation</dcterms:title>
+        <bibo:authorList>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+            </rdf:Description>
+        </bibo:authorList>
+        <bibo:doi>10/gfrfdq</bibo:doi>
+        <bibo:pages>23–32</bibo:pages>
+        <bibo:shortTitle>ReEL</bibo:shortTitle>
+        <bibo:uri>http://doi.acm.org/10.1145/3209219.3209237</bibo:uri>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://doi.acm.org/10.1145/3209219.3209243 -->
+
+    <owl:NamedIndividual rdf:about="http://doi.acm.org/10.1145/3209219.3209243">
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+        <dcterms:abstract>In online social networks (OSNs), e.g. Facebook, the relationship between users is binary, i.e., either friend (trust) or stranger (distrust). However, in real-world life, people always have different trust relationships with others (e.g., best friend, acquaintance, frenemy). For various applications such as social recommendation and semantic web, it is more worthwhile to know the trust strength between users. In this work, via a unique dataset obtained from a Facebook app and a carefully designed user study, we map trust values with users&apos; online interactions, and thus build personalized trust models. For each individual, we learn her trust model via optimization on a ranking-oriented loss function. Experimental results demonstrate the superior of the proposed approach over state-of-the-art method and the good generalization ability of the approach.</dcterms:abstract>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>Xiaoming</foaf:givenname>
+                <foaf:surname>Li</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>Hui</foaf:givenname>
+                <foaf:surname>Fang</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>Qing</foaf:givenname>
+                <foaf:surname>Yang</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>Jie</foaf:givenname>
+                <foaf:surname>Zhang</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:isPartOf>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/Proceedings"/>
+                <dcterms:date>2018</dcterms:date>
+                <dcterms:isPartOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Series"/>
+                        <dcterms:title>UMAP &apos;18</dcterms:title>
+                    </rdf:Description>
+                </dcterms:isPartOf>
+                <dcterms:publisher>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+                        <address:localityName>New York, NY, USA</address:localityName>
+                        <foaf:name>ACM</foaf:name>
+                    </rdf:Description>
+                </dcterms:publisher>
+                <dcterms:title>Proceedings of the 26th Conference on User Modeling, Adaptation and Personalization</dcterms:title>
+                <bibo:isbn13>978-1-4503-5589-6</bibo:isbn13>
+            </rdf:Description>
+        </dcterms:isPartOf>
+        <dcterms:title>Who is Your Best Friend?: Ranking Social Network Friends According to Trust Relationship</dcterms:title>
+        <bibo:authorList>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+            </rdf:Description>
+        </bibo:authorList>
+        <bibo:doi>10/gfrfds</bibo:doi>
+        <bibo:pages>301–309</bibo:pages>
+        <bibo:shortTitle>Who is Your Best Friend?</bibo:shortTitle>
+        <bibo:uri>http://doi.acm.org/10.1145/3209219.3209243</bibo:uri>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://doi.acm.org/10.1145/3209219.3209248 -->
+
+    <owl:NamedIndividual rdf:about="http://doi.acm.org/10.1145/3209219.3209248">
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+        <dcterms:abstract>Instagram is a popular social networking application that allows users to express themselves through the uploaded content and the different filters they can apply. In this study we look at personality prediction from Instagram picture features. We explore two different features that can be extracted from pictures: 1) visual features (e.g., hue, valence, saturation), and 2) content features (i.e., the content of the pictures). To collect data, we conducted an online survey where we asked participants to fill in a personality questionnaire and grant us access to their Instagram account through the Instagram API. We gathered 54,962 pictures of 193 Instagram users. With our results we show that visual and content features can be used to predict personality from and perform in general equally well. Combining the two however does not result in an increased predictive power. Seemingly, they are not adding more value than they already consist of independently.</dcterms:abstract>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>Bruce</foaf:givenname>
+                <foaf:surname>Ferwerda</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>Marko</foaf:givenname>
+                <foaf:surname>Tkalcic</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:isPartOf>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/Proceedings"/>
+                <dcterms:date>2018</dcterms:date>
+                <dcterms:isPartOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Series"/>
+                        <dcterms:title>UMAP &apos;18</dcterms:title>
+                    </rdf:Description>
+                </dcterms:isPartOf>
+                <dcterms:publisher>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+                        <address:localityName>New York, NY, USA</address:localityName>
+                        <foaf:name>ACM</foaf:name>
+                    </rdf:Description>
+                </dcterms:publisher>
+                <dcterms:title>Proceedings of the 26th Conference on User Modeling, Adaptation and Personalization</dcterms:title>
+                <bibo:isbn13>978-1-4503-5589-6</bibo:isbn13>
+            </rdf:Description>
+        </dcterms:isPartOf>
+        <dcterms:title>Predicting Users&apos; Personality from Instagram Pictures: Using Visual and/or Content Features?</dcterms:title>
+        <bibo:authorList>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+            </rdf:Description>
+        </bibo:authorList>
+        <bibo:doi>10/gd8m57</bibo:doi>
+        <bibo:pages>157–161</bibo:pages>
+        <bibo:shortTitle>Predicting Users&apos; Personality from Instagram Pictures</bibo:shortTitle>
+        <bibo:uri>http://doi.acm.org/10.1145/3209219.3209248</bibo:uri>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://doi.acm.org/10.1145/3209219.3209249 -->
+
+    <owl:NamedIndividual rdf:about="http://doi.acm.org/10.1145/3209219.3209249">
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+        <dcterms:abstract>One of the important aspects of movie-making is to trigger emotional responses in viewers. These emotional experiences can be divided into hedonic and eudaimonic. While the former are characterized as plain enjoyment, the latter deal with getting greater insight, self-reflection or contemplation. So far, modeling of user preferences about movies and personalization algorithms have largely ignored the eudaimonic aspect of the consumption of movies. In this paper we fill this gap by exploring what are the relationship between (i) eudaimonic and hedonic characteristics of movies, (ii) users&apos; preferences and (iii) users&apos; personality. Our results show that eudaimonic user profiling effectively divides users into pleasure-seekers and meaning-seekers.</dcterms:abstract>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>Marko</foaf:givenname>
+                <foaf:surname>Tkalčič</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>Bruce</foaf:givenname>
+                <foaf:surname>Ferwerda</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:isPartOf>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/Proceedings"/>
+                <dcterms:date>2018</dcterms:date>
+                <dcterms:isPartOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Series"/>
+                        <dcterms:title>UMAP &apos;18</dcterms:title>
+                    </rdf:Description>
+                </dcterms:isPartOf>
+                <dcterms:publisher>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+                        <address:localityName>New York, NY, USA</address:localityName>
+                        <foaf:name>ACM</foaf:name>
+                    </rdf:Description>
+                </dcterms:publisher>
+                <dcterms:title>Proceedings of the 26th Conference on User Modeling, Adaptation and Personalization</dcterms:title>
+                <bibo:isbn13>978-1-4503-5589-6</bibo:isbn13>
+            </rdf:Description>
+        </dcterms:isPartOf>
+        <dcterms:title>Eudaimonic Modeling of Moviegoers</dcterms:title>
+        <bibo:authorList>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+            </rdf:Description>
+        </bibo:authorList>
+        <bibo:doi>10/gfrfdp</bibo:doi>
+        <bibo:pages>163–167</bibo:pages>
+        <bibo:uri>http://doi.acm.org/10.1145/3209219.3209249</bibo:uri>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://doi.acm.org/10.1145/3209219.3209253 -->
+
+    <owl:NamedIndividual rdf:about="http://doi.acm.org/10.1145/3209219.3209253">
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+        <dcterms:abstract>People typically eat what they shop for; if consumers shop for healthy foods, they will likely eat healthy foods. In order to influence healthier eating habits among consumers, it is important to identify the factors that influence them to shop for healthy foods. To contribute to ongoing research in this area, we explore the influence of commonly used e-commerce strategies: personality, persuasive strategies, social support, relative price, and perceived product quality on healthy shopping habits among e-commerce shoppers. Research has shown that personalizing these strategies makes them more effective in achieving the desired behavior change among users. Age and gender have been identified as factors that can be used for group-based personalization. We thus investigate the moderating effect of age and gender on the factors that influence healthy shopping habits in e-commerce shoppers. To achieve this, we carried out an online study of 244 e-commerce shoppers. Using partial least squares structural equation modeling (PLS-SEM), we developed a path model using the commonly used e-commerce factors: personality, persuasive strategies, social support, relative price, and perceived product quality. The result of our analysis suggests that social support, relative price and perceived product quality significantly influence healthy shopping habits in e-commerce shoppers. In addition, females are more influenced by social support to adopt healthy shopping habits compared to male e-shoppers. Furthermore, older shoppers are more influenced by social support to adopt healthy shopping habits, while the younger shoppers are more influenced by the relative price of products.</dcterms:abstract>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>Ifeoma</foaf:givenname>
+                <foaf:surname>Adaji</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>Kiemute</foaf:givenname>
+                <foaf:surname>Oyibo</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>Julita</foaf:givenname>
+                <foaf:surname>Vassileva</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:isPartOf>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/Proceedings"/>
+                <dcterms:date>2018</dcterms:date>
+                <dcterms:isPartOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Series"/>
+                        <dcterms:title>UMAP &apos;18</dcterms:title>
+                    </rdf:Description>
+                </dcterms:isPartOf>
+                <dcterms:publisher>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+                        <address:localityName>New York, NY, USA</address:localityName>
+                        <foaf:name>ACM</foaf:name>
+                    </rdf:Description>
+                </dcterms:publisher>
+                <dcterms:title>Proceedings of the 26th Conference on User Modeling, Adaptation and Personalization</dcterms:title>
+                <bibo:isbn13>978-1-4503-5589-6</bibo:isbn13>
+            </rdf:Description>
+        </dcterms:isPartOf>
+        <dcterms:title>The Effect of Gender and Age on the Factors That Influence Healthy Shopping Habits in E-Commerce</dcterms:title>
+        <bibo:authorList>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+            </rdf:Description>
+        </bibo:authorList>
+        <bibo:doi>10/gfrfdr</bibo:doi>
+        <bibo:pages>251–255</bibo:pages>
+        <bibo:uri>http://doi.acm.org/10.1145/3209219.3209253</bibo:uri>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://doi.acm.org/10.1145/3209219.3209264 -->
+
+    <owl:NamedIndividual rdf:about="http://doi.acm.org/10.1145/3209219.3209264">
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+        <dcterms:abstract>Prediction of emotions is important for understanding human be-havior and modeling users in learning environments. In this paper,we present a deep multi-modal architecture for emotions predic-tion, which takes advantage of deep learning, user multimodal dataand the hierarchy of human memory. The architecture consists ofthe combination of Long Short-Term memory (LSTMs). One of thenovelty of our approach is that, we enhance the LSTM with anexplicit memory since in brain studies, the memory is often dividedinto two further main types: explicit (or declarative) memory andimplicit (or procedural) memory, the last one being the main pur-pose of LSTMs architectures. The resulting model has been testedon a public multi-modal dataset.</dcterms:abstract>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>Ange</foaf:givenname>
+                <foaf:surname>Tato</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>Roger</foaf:givenname>
+                <foaf:surname>Nkambou</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>Claude</foaf:givenname>
+                <foaf:surname>Frasson</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:isPartOf>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/Proceedings"/>
+                <dcterms:date>2018</dcterms:date>
+                <dcterms:isPartOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Series"/>
+                        <dcterms:title>UMAP &apos;18</dcterms:title>
+                    </rdf:Description>
+                </dcterms:isPartOf>
+                <dcterms:publisher>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+                        <address:localityName>New York, NY, USA</address:localityName>
+                        <foaf:name>ACM</foaf:name>
+                    </rdf:Description>
+                </dcterms:publisher>
+                <dcterms:title>Proceedings of the 26th Conference on User Modeling, Adaptation and Personalization</dcterms:title>
+                <bibo:isbn13>978-1-4503-5589-6</bibo:isbn13>
+            </rdf:Description>
+        </dcterms:isPartOf>
+        <dcterms:title>Predicting Emotions From Multimodal Users&apos; Data</dcterms:title>
+        <bibo:authorList>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+            </rdf:Description>
+        </bibo:authorList>
+        <bibo:doi>10/gfrfdz</bibo:doi>
+        <bibo:pages>369–370</bibo:pages>
+        <bibo:uri>http://doi.acm.org/10.1145/3209219.3209264</bibo:uri>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://doi.acm.org/10.1145/3213586.3225228 -->
+
+    <owl:NamedIndividual rdf:about="http://doi.acm.org/10.1145/3213586.3225228">
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+        <dcterms:abstract>Current research has shown that a person&apos;s personality can be derived from written text on Facebook or Twitter, as well as the amount of information shared on their personal social network sites. So far, there has been no further investigation on whether a person&apos;s privacy measures can be extracted from these information sources. We conducted an explorative online user study with 100 participants; the results indicate that privacy concerns can be derived from written text, with a prediction precision similar to personality. At the end of the discussion, we give specific guidelines on the choice of the correct data source for the derivation of the different privacy measures and the possible applications of those.</dcterms:abstract>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>Frederic</foaf:givenname>
+                <foaf:surname>Raber</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>Antonio</foaf:givenname>
+                <foaf:surname>Krüger</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:isPartOf>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/Proceedings"/>
+                <dcterms:date>2018</dcterms:date>
+                <dcterms:isPartOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Series"/>
+                        <dcterms:title>UMAP &apos;18</dcterms:title>
+                    </rdf:Description>
+                </dcterms:isPartOf>
+                <dcterms:publisher>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+                        <address:localityName>New York, NY, USA</address:localityName>
+                        <foaf:name>ACM</foaf:name>
+                    </rdf:Description>
+                </dcterms:publisher>
+                <dcterms:title>Adjunct Publication of the 26th Conference on User Modeling, Adaptation and Personalization</dcterms:title>
+                <bibo:isbn13>978-1-4503-5784-5</bibo:isbn13>
+            </rdf:Description>
+        </dcterms:isPartOf>
+        <dcterms:title>Privacy Perceiver: Using Social Network Posts to Derive Users&apos; Privacy Measures</dcterms:title>
+        <bibo:authorList>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+            </rdf:Description>
+        </bibo:authorList>
+        <bibo:doi>10/gfrfdh</bibo:doi>
+        <bibo:pages>227–232</bibo:pages>
+        <bibo:shortTitle>Privacy Perceiver</bibo:shortTitle>
+        <bibo:uri>http://doi.acm.org/10.1145/3213586.3225228</bibo:uri>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://doi.acm.org/10.1145/3213586.3225232 -->
+
+    <owl:NamedIndividual rdf:about="http://doi.acm.org/10.1145/3213586.3225232">
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+        <dcterms:abstract>This paper presents a comprehensive analysis on social media use and engagement by age and gender on Instagram. We define five user age groups (from 10s to 50s) and two user gender groups (males and females), and compare them based on three aspects: activity, image object, and tag. We especially excluded the information that indicates human (e.g., selfies, faces, body) for each aspect in order to examine whether users are still identifiable without that information. Our study results indicate that each user group exhibits unique characteristics and the features from each aspect can be used to develop user classification models (82% for gender and 43% for age classification) without relying on the information that specifically indicates age and gender.</dcterms:abstract>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>Kyungsik</foaf:givenname>
+                <foaf:surname>Han</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>Yonggeol</foaf:givenname>
+                <foaf:surname>Jo</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>Youngseung</foaf:givenname>
+                <foaf:surname>Jeon</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>Bogoan</foaf:givenname>
+                <foaf:surname>Kim</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>Junho</foaf:givenname>
+                <foaf:surname>Song</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>Sang-Wook</foaf:givenname>
+                <foaf:surname>Kim</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:isPartOf>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/Proceedings"/>
+                <dcterms:date>2018</dcterms:date>
+                <dcterms:isPartOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Series"/>
+                        <dcterms:title>UMAP &apos;18</dcterms:title>
+                    </rdf:Description>
+                </dcterms:isPartOf>
+                <dcterms:publisher>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+                        <address:localityName>New York, NY, USA</address:localityName>
+                        <foaf:name>ACM</foaf:name>
+                    </rdf:Description>
+                </dcterms:publisher>
+                <dcterms:title>Adjunct Publication of the 26th Conference on User Modeling, Adaptation and Personalization</dcterms:title>
+                <bibo:isbn13>978-1-4503-5784-5</bibo:isbn13>
+            </rdf:Description>
+        </dcterms:isPartOf>
+        <dcterms:title>Photos Don&apos;T Have Me, But How Do You Know Me?: Analyzing and Predicting Users on Instagram</dcterms:title>
+        <bibo:authorList>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+            </rdf:Description>
+        </bibo:authorList>
+        <bibo:doi>10/gfrfdj</bibo:doi>
+        <bibo:pages>251–256</bibo:pages>
+        <bibo:shortTitle>Photos Don&apos;T Have Me, But How Do You Know Me?</bibo:shortTitle>
+        <bibo:uri>http://doi.acm.org/10.1145/3213586.3225232</bibo:uri>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://doi.acm.org/10.1145/3213586.3225236 -->
+
+    <owl:NamedIndividual rdf:about="http://doi.acm.org/10.1145/3213586.3225236">
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+        <dcterms:abstract>In recent years, enterprise group chat collaboration tools such as Slack, IBM&apos;s Watson Workspace and Microsoft Teams, have presented unprecedented growth. With all the potential benefits of these tools &quot; productivity increase and improved group communication &quot; come significant challenges. Specifically, users find it hard to focus their attention on content that is relevant to them due to the load of conversational content. This load can be handled by personalized content presentation and summarization mitigated by user profiling. We present an unsupervised approach for implicitly modeling group chat users through a combination of a probabilistic topic model and social analysis. We evaluate our approach by testing it on a task of conversation participation prediction, serving as a proxy for anticipating user interests, and show that by utilizing our approach, a system successfully predicts users participation in conversations. We further analyze the contribution of the various user model components and show them to be significant.</dcterms:abstract>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>Anat</foaf:givenname>
+                <foaf:surname>Hashavit</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>Naama</foaf:givenname>
+                <foaf:surname>Tepper</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>Inbal</foaf:givenname>
+                <foaf:surname>Ronen</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>Lior</foaf:givenname>
+                <foaf:surname>Leiba</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>Amir DN</foaf:givenname>
+                <foaf:surname>Cohen</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:isPartOf>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/Proceedings"/>
+                <dcterms:date>2018</dcterms:date>
+                <dcterms:isPartOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Series"/>
+                        <dcterms:title>UMAP &apos;18</dcterms:title>
+                    </rdf:Description>
+                </dcterms:isPartOf>
+                <dcterms:publisher>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+                        <address:localityName>New York, NY, USA</address:localityName>
+                        <foaf:name>ACM</foaf:name>
+                    </rdf:Description>
+                </dcterms:publisher>
+                <dcterms:title>Adjunct Publication of the 26th Conference on User Modeling, Adaptation and Personalization</dcterms:title>
+                <bibo:isbn13>978-1-4503-5784-5</bibo:isbn13>
+            </rdf:Description>
+        </dcterms:isPartOf>
+        <dcterms:title>Implicit User Modeling in Group Chat</dcterms:title>
+        <bibo:authorList>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+            </rdf:Description>
+        </bibo:authorList>
+        <bibo:doi>10/gfrfdk</bibo:doi>
+        <bibo:pages>275–280</bibo:pages>
+        <bibo:uri>http://doi.acm.org/10.1145/3213586.3225236</bibo:uri>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://doi.acm.org/10.1145/3213586.3226191 -->
+
+    <owl:NamedIndividual rdf:about="http://doi.acm.org/10.1145/3213586.3226191">
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+        <dcterms:abstract>The way people read digital news - as distinct from what news they read - has emerged as a significant concern for research in user modelling and personalisation. Intuitively, some people read the news frequently and broadly whilst others read it occasionally and selectively. It is likely that these differences in news reading behaviour arise in part from differences in peoples&apos; personalities. We report a study that surveyed the digital news reading habits and personality traits of 241 people. We find correlations between most news reading characteristics (e.g., how much time over a day a person reads news) and some personality traits (e.g Openness-to-Experience). The correlations provide a better understanding of the different types of news reading user and why they read news in different ways. They indicate the value of extending user model profiles to include personality traits along with domain specific activity factors.</dcterms:abstract>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>Marios</foaf:givenname>
+                <foaf:surname>Constantinides</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>Panagiotis</foaf:givenname>
+                <foaf:surname>Germanakos</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>George</foaf:givenname>
+                <foaf:surname>Samaras</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>John</foaf:givenname>
+                <foaf:surname>Dowell</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:isPartOf>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/Proceedings"/>
+                <dcterms:date>2018</dcterms:date>
+                <dcterms:isPartOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Series"/>
+                        <dcterms:title>UMAP &apos;18</dcterms:title>
+                    </rdf:Description>
+                </dcterms:isPartOf>
+                <dcterms:publisher>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+                        <address:localityName>New York, NY, USA</address:localityName>
+                        <foaf:name>ACM</foaf:name>
+                    </rdf:Description>
+                </dcterms:publisher>
+                <dcterms:title>Adjunct Publication of the 26th Conference on User Modeling, Adaptation and Personalization</dcterms:title>
+                <bibo:isbn13>978-1-4503-5784-5</bibo:isbn13>
+            </rdf:Description>
+        </dcterms:isPartOf>
+        <dcterms:title>Your Digital News Reading Habits Reflect Your Personality</dcterms:title>
+        <bibo:authorList>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+            </rdf:Description>
+        </bibo:authorList>
+        <bibo:doi>10/gfrfdg</bibo:doi>
+        <bibo:pages>45–48</bibo:pages>
+        <bibo:uri>http://doi.acm.org/10.1145/3213586.3226191</bibo:uri>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://link.springer.com/10.1007/978-3-642-37210-0_6 -->
+
+    <owl:NamedIndividual rdf:about="http://link.springer.com/10.1007/978-3-642-37210-0_6">
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/BookSection"/>
+        <dcterms:abstract>The present study provides the ﬁrst evidence that personality can be reliably predicted from standard mobile phone logs. Using a set of novel psychology-informed indicators that can be computed from data available to all carriers, we were able to predict users’ personality with a mean accuracy across traits of 42% better than random, reaching up to 61% accuracy on a three-class problem. Given the fast growing number of mobile phone subscription and availability of phone logs to researchers, our new personality indicators open the door to exciting avenues for future research in social sciences. They potentially enable costeﬀective, questionnaire-free investigation of personality-related questions at a scale never seen before.</dcterms:abstract>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>Yves-Alexandre</foaf:givenname>
+                <foaf:surname>de Montjoye</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>Jordi</foaf:givenname>
+                <foaf:surname>Quoidbach</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>Florent</foaf:givenname>
+                <foaf:surname>Robic</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>Alex</foaf:givenname>
+                <foaf:surname>Pentland</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:isPartOf>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/EditedBook"/>
+                <dcterms:date>2013</dcterms:date>
+                <dcterms:isPartOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Series"/>
+                        <bibo:editor>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                                <foaf:givenname>David</foaf:givenname>
+                                <foaf:surname>Hutchison</foaf:surname>
+                            </rdf:Description>
+                        </bibo:editor>
+                        <bibo:editor>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                                <foaf:givenname>Takeo</foaf:givenname>
+                                <foaf:surname>Kanade</foaf:surname>
+                            </rdf:Description>
+                        </bibo:editor>
+                        <bibo:editor>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                                <foaf:givenname>Josef</foaf:givenname>
+                                <foaf:surname>Kittler</foaf:surname>
+                            </rdf:Description>
+                        </bibo:editor>
+                        <bibo:editor>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                                <foaf:givenname>Jon M.</foaf:givenname>
+                                <foaf:surname>Kleinberg</foaf:surname>
+                            </rdf:Description>
+                        </bibo:editor>
+                        <bibo:editor>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                                <foaf:givenname>Friedemann</foaf:givenname>
+                                <foaf:surname>Mattern</foaf:surname>
+                            </rdf:Description>
+                        </bibo:editor>
+                        <bibo:editor>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                                <foaf:givenname>John C.</foaf:givenname>
+                                <foaf:surname>Mitchell</foaf:surname>
+                            </rdf:Description>
+                        </bibo:editor>
+                        <bibo:editor>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                                <foaf:givenname>Moni</foaf:givenname>
+                                <foaf:surname>Naor</foaf:surname>
+                            </rdf:Description>
+                        </bibo:editor>
+                        <bibo:editor>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                                <foaf:givenname>Oscar</foaf:givenname>
+                                <foaf:surname>Nierstrasz</foaf:surname>
+                            </rdf:Description>
+                        </bibo:editor>
+                        <bibo:editor>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                                <foaf:givenname>C.</foaf:givenname>
+                                <foaf:surname>Pandu Rangan</foaf:surname>
+                            </rdf:Description>
+                        </bibo:editor>
+                        <bibo:editor>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                                <foaf:givenname>Bernhard</foaf:givenname>
+                                <foaf:surname>Steffen</foaf:surname>
+                            </rdf:Description>
+                        </bibo:editor>
+                        <bibo:editor>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                                <foaf:givenname>Madhu</foaf:givenname>
+                                <foaf:surname>Sudan</foaf:surname>
+                            </rdf:Description>
+                        </bibo:editor>
+                        <bibo:editor>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                                <foaf:givenname>Demetri</foaf:givenname>
+                                <foaf:surname>Terzopoulos</foaf:surname>
+                            </rdf:Description>
+                        </bibo:editor>
+                        <bibo:editor>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                                <foaf:givenname>Doug</foaf:givenname>
+                                <foaf:surname>Tygar</foaf:surname>
+                            </rdf:Description>
+                        </bibo:editor>
+                        <bibo:editor>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                                <foaf:givenname>Moshe Y.</foaf:givenname>
+                                <foaf:surname>Vardi</foaf:surname>
+                            </rdf:Description>
+                        </bibo:editor>
+                        <bibo:editor>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                                <foaf:givenname>Gerhard</foaf:givenname>
+                                <foaf:surname>Weikum</foaf:surname>
+                            </rdf:Description>
+                        </bibo:editor>
+                        <bibo:editorList>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+                            </rdf:Description>
+                        </bibo:editorList>
+                    </rdf:Description>
+                </dcterms:isPartOf>
+                <dcterms:publisher>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+                        <address:localityName>Berlin, Heidelberg</address:localityName>
+                        <foaf:name>Springer Berlin Heidelberg</foaf:name>
+                    </rdf:Description>
+                </dcterms:publisher>
+                <dcterms:title>Social Computing, Behavioral-Cultural Modeling and Prediction</dcterms:title>
+                <bibo:editor>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                        <foaf:givenname>Ariel M.</foaf:givenname>
+                        <foaf:surname>Greenberg</foaf:surname>
+                    </rdf:Description>
+                </bibo:editor>
+                <bibo:editor>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                        <foaf:givenname>William G.</foaf:givenname>
+                        <foaf:surname>Kennedy</foaf:surname>
+                    </rdf:Description>
+                </bibo:editor>
+                <bibo:editor>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                        <foaf:givenname>Nathan D.</foaf:givenname>
+                        <foaf:surname>Bos</foaf:surname>
+                    </rdf:Description>
+                </bibo:editor>
+                <bibo:editorList>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+                    </rdf:Description>
+                </bibo:editorList>
+                <bibo:isbn13>978-3-642-37209-4</bibo:isbn13>
+                <bibo:isbn13>978-3-642-37210-0</bibo:isbn13>
+                <bibo:volume>7812</bibo:volume>
+            </rdf:Description>
+        </dcterms:isPartOf>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:title>Predicting Personality Using Novel Mobile Phone-Based Metrics</dcterms:title>
+        <bibo:authorList>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+            </rdf:Description>
+        </bibo:authorList>
+        <bibo:pages>48-55</bibo:pages>
+        <bibo:uri>http://link.springer.com/10.1007/978-3-642-37210-0_6</bibo:uri>
+        <z:extra>DOI: 10.1007/978-3-642-37210-0_6</z:extra>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.sciencedirect.com/science/article/pii/S0378873308000385 -->
+
+    <owl:NamedIndividual rdf:about="http://www.sciencedirect.com/science/article/pii/S0378873308000385">
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/AcademicArticle"/>
+        <dcterms:abstract>Scholars have long recognized the potential of Internet-based communication technologies for improving network research—potential that, to date, remains largely underexploited. In the first half of this paper, we introduce a new public dataset based on manipulations and embellishments of a popular social network site, Facebook.com. We emphasize five distinctive features of this dataset and highlight its advantages and limitations vis-à-vis other kinds of network data. In the second half of this paper, we present descriptive findings from our first wave of data. Subgroups defined by gender, race/ethnicity, and socioeconomic status are characterized by distinct network behaviors, and students sharing social relationships as well as demographic traits tend to share a significant number of cultural preferences. These findings exemplify the scientific and pedagogical potential of this new network resource and provide a starting point for future analyses.</dcterms:abstract>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>Kevin</foaf:givenname>
+                <foaf:surname>Lewis</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>Jason</foaf:givenname>
+                <foaf:surname>Kaufman</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>Marco</foaf:givenname>
+                <foaf:surname>Gonzalez</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>Andreas</foaf:givenname>
+                <foaf:surname>Wimmer</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>Nicholas</foaf:givenname>
+                <foaf:surname>Christakis</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:isPartOf>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/Issue"/>
+                <dcterms:date>October 1, 2008</dcterms:date>
+                <dcterms:isPartOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Journal"/>
+                        <dcterms:title>Social Networks</dcterms:title>
+                        <bibo:issn>0378-8733</bibo:issn>
+                        <bibo:shortTitle>Social Networks</bibo:shortTitle>
+                    </rdf:Description>
+                </dcterms:isPartOf>
+                <bibo:issue>4</bibo:issue>
+                <bibo:volume>30</bibo:volume>
+            </rdf:Description>
+        </dcterms:isPartOf>
+        <dcterms:title>Tastes, ties, and time: A new social network dataset using Facebook.com</dcterms:title>
+        <bibo:authorList>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+            </rdf:Description>
+        </bibo:authorList>
+        <bibo:doi>10/d5v9m9</bibo:doi>
+        <bibo:pages>330-342</bibo:pages>
+        <bibo:shortTitle>Tastes, ties, and time</bibo:shortTitle>
+        <bibo:uri>http://www.sciencedirect.com/science/article/pii/S0378873308000385</bibo:uri>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://zotero.org/users/3031286/items/A7DVHGVY -->
+
+    <owl:NamedIndividual rdf:about="http://zotero.org/users/3031286/items/A7DVHGVY">
+        <rdf:type rdf:resource="http://www.zotero.org/namespaces/export#UserItem"/>
+        <res:resource rdf:resource="http://doi.acm.org/10.1145/3213586.3225228"/>
+        <z:accessDate>2018-12-17 18:59:02</z:accessDate>
+        <z:repository>ACM Digital Library</z:repository>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://zotero.org/users/3031286/items/AMFGBBK6 -->
+
+    <owl:NamedIndividual rdf:about="http://zotero.org/users/3031286/items/AMFGBBK6">
+        <rdf:type rdf:resource="http://www.zotero.org/namespaces/export#UserItem"/>
+        <res:resource rdf:resource="urn:isbn:978-3-319-27671-7"/>
+        <z:repository>Springer Link</z:repository>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://zotero.org/users/3031286/items/AURMYD5E -->
+
+    <owl:NamedIndividual rdf:about="http://zotero.org/users/3031286/items/AURMYD5E">
+        <rdf:type rdf:resource="http://www.zotero.org/namespaces/export#UserItem"/>
+        <res:resource rdf:resource="info:doi/10/gfrfdn"/>
+        <z:repository>Google Scholar</z:repository>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://zotero.org/users/3031286/items/B44C4VL9 -->
+
+    <owl:NamedIndividual rdf:about="http://zotero.org/users/3031286/items/B44C4VL9">
+        <rdf:type rdf:resource="http://www.zotero.org/namespaces/export#UserItem"/>
+        <res:resource rdf:resource="https://academic.oup.com/dsh/article/17/4/401/1019830"/>
+        <z:accessDate>2018-12-18 16:39:25</z:accessDate>
+        <z:repository>academic.oup.com</z:repository>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://zotero.org/users/3031286/items/CA3A3B5W -->
+
+    <owl:NamedIndividual rdf:about="http://zotero.org/users/3031286/items/CA3A3B5W">
+        <rdf:type rdf:resource="http://www.zotero.org/namespaces/export#UserItem"/>
+        <res:resource rdf:resource="http://doi.acm.org/10.1145/3209219.3209224"/>
+        <z:accessDate>2018-12-17 19:12:34</z:accessDate>
+        <z:repository>ACM Digital Library</z:repository>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://zotero.org/users/3031286/items/CPGS2HXN -->
+
+    <owl:NamedIndividual rdf:about="http://zotero.org/users/3031286/items/CPGS2HXN">
+        <rdf:type rdf:resource="http://www.zotero.org/namespaces/export#UserItem"/>
+        <res:resource rdf:resource="http://doi.acm.org/10.1145/3213586.3226191"/>
+        <z:accessDate>2018-12-17 18:58:56</z:accessDate>
+        <z:repository>ACM Digital Library</z:repository>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://zotero.org/users/3031286/items/E2BC9YPA -->
+
+    <owl:NamedIndividual rdf:about="http://zotero.org/users/3031286/items/E2BC9YPA">
+        <rdf:type rdf:resource="http://www.zotero.org/namespaces/export#UserItem"/>
+        <res:resource rdf:resource="http://doi.acm.org/10.1145/3209219.3209264"/>
+        <z:accessDate>2018-12-17 19:13:29</z:accessDate>
+        <z:repository>ACM Digital Library</z:repository>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://zotero.org/users/3031286/items/JILEQ3WI -->
+
+    <owl:NamedIndividual rdf:about="http://zotero.org/users/3031286/items/JILEQ3WI">
+        <rdf:type rdf:resource="http://www.zotero.org/namespaces/export#UserItem"/>
+        <res:resource rdf:resource="http://doi.acm.org/10.1145/3213586.3225236"/>
+        <z:accessDate>2018-12-17 18:59:06</z:accessDate>
+        <z:repository>ACM Digital Library</z:repository>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://zotero.org/users/3031286/items/LUZSAW8P -->
+
+    <owl:NamedIndividual rdf:about="http://zotero.org/users/3031286/items/LUZSAW8P">
+        <rdf:type rdf:resource="http://www.zotero.org/namespaces/export#UserItem"/>
+        <res:resource>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/AcademicArticle"/>
+                <dcterms:creator>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                        <foaf:givenname>Mason A</foaf:givenname>
+                        <foaf:surname>Porter</foaf:surname>
+                    </rdf:Description>
+                </dcterms:creator>
+                <dcterms:creator>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                        <foaf:givenname>Jukka-Pekka</foaf:givenname>
+                        <foaf:surname>Onnela</foaf:surname>
+                    </rdf:Description>
+                </dcterms:creator>
+                <dcterms:creator>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                        <foaf:givenname>Peter J</foaf:givenname>
+                        <foaf:surname>Mucha</foaf:surname>
+                    </rdf:Description>
+                </dcterms:creator>
+                <dcterms:isPartOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Issue"/>
+                        <dcterms:date>2009</dcterms:date>
+                        <dcterms:isPartOf>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://purl.org/ontology/bibo/Journal"/>
+                                <dcterms:title>Notices of the AMS</dcterms:title>
+                            </rdf:Description>
+                        </dcterms:isPartOf>
+                        <bibo:issue>9</bibo:issue>
+                        <bibo:volume>56</bibo:volume>
+                    </rdf:Description>
+                </dcterms:isPartOf>
+                <dcterms:title>Communities in networks</dcterms:title>
+                <bibo:authorList>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+                    </rdf:Description>
+                </bibo:authorList>
+                <bibo:pages>1082–1097</bibo:pages>
+            </rdf:Description>
+        </res:resource>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://zotero.org/users/3031286/items/M86UJXWJ -->
+
+    <owl:NamedIndividual rdf:about="http://zotero.org/users/3031286/items/M86UJXWJ">
+        <rdf:type rdf:resource="http://www.zotero.org/namespaces/export#UserItem"/>
+        <res:resource rdf:resource="http://doi.acm.org/10.1145/3099023.3099105"/>
+        <z:accessDate>2018-12-17 19:20:48</z:accessDate>
+        <z:repository>ACM Digital Library</z:repository>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://zotero.org/users/3031286/items/MBWLU8GW -->
+
+    <owl:NamedIndividual rdf:about="http://zotero.org/users/3031286/items/MBWLU8GW">
+        <rdf:type rdf:resource="http://www.zotero.org/namespaces/export#UserItem"/>
+        <res:resource rdf:resource="http://doi.acm.org/10.1145/3209219.3209243"/>
+        <z:accessDate>2018-12-17 19:12:01</z:accessDate>
+        <z:repository>ACM Digital Library</z:repository>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://zotero.org/users/3031286/items/NISPL3V7 -->
+
+    <owl:NamedIndividual rdf:about="http://zotero.org/users/3031286/items/NISPL3V7">
+        <rdf:type rdf:resource="http://www.zotero.org/namespaces/export#UserItem"/>
+        <res:resource rdf:resource="http://doi.acm.org/10.1145/3213586.3225232"/>
+        <z:accessDate>2018-12-17 18:59:04</z:accessDate>
+        <z:repository>ACM Digital Library</z:repository>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://zotero.org/users/3031286/items/P8L8ATMF -->
+
+    <owl:NamedIndividual rdf:about="http://zotero.org/users/3031286/items/P8L8ATMF">
+        <rdf:type rdf:resource="http://www.zotero.org/namespaces/export#UserItem"/>
+        <res:resource rdf:resource="http://doi.acm.org/10.1145/3209219.3209237"/>
+        <z:accessDate>2018-12-17 19:05:24</z:accessDate>
+        <z:repository>ACM Digital Library</z:repository>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://zotero.org/users/3031286/items/Q423TILL -->
+
+    <owl:NamedIndividual rdf:about="http://zotero.org/users/3031286/items/Q423TILL">
+        <rdf:type rdf:resource="http://www.zotero.org/namespaces/export#UserItem"/>
+        <res:resource rdf:resource="http://www.sciencedirect.com/science/article/pii/S0378873308000385"/>
+        <z:accessDate>2018-12-18 16:20:55</z:accessDate>
+        <z:repository>ScienceDirect</z:repository>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://zotero.org/users/3031286/items/QZQJZ8I3 -->
+
+    <owl:NamedIndividual rdf:about="http://zotero.org/users/3031286/items/QZQJZ8I3">
+        <rdf:type rdf:resource="http://www.zotero.org/namespaces/export#UserItem"/>
+        <res:resource rdf:resource="http://doi.acm.org/10.1145/3099023.3099103"/>
+        <z:accessDate>2018-12-17 19:20:51</z:accessDate>
+        <z:repository>ACM Digital Library</z:repository>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://zotero.org/users/3031286/items/S2UMGGS2 -->
+
+    <owl:NamedIndividual rdf:about="http://zotero.org/users/3031286/items/S2UMGGS2">
+        <rdf:type rdf:resource="http://www.zotero.org/namespaces/export#UserItem"/>
+        <res:resource rdf:resource="http://link.springer.com/10.1007/978-3-642-37210-0_6"/>
+        <z:accessDate>2018-12-18 17:19:26</z:accessDate>
+        <z:repository>Crossref</z:repository>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://zotero.org/users/3031286/items/TN66GF8Z -->
+
+    <owl:NamedIndividual rdf:about="http://zotero.org/users/3031286/items/TN66GF8Z">
+        <rdf:type rdf:resource="http://www.zotero.org/namespaces/export#UserItem"/>
+        <res:resource>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+                <dcterms:abstract>In order for a municipality to effectively service and engage its constituency, it must understand the composition of the communities within it. Up to the present, such demographic estimates for target populations have been obtained largely from census data or expensive, time-intensive surveys.</dcterms:abstract>
+                <dcterms:creator>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                        <foaf:givenname>Wendy</foaf:givenname>
+                        <foaf:surname>Liu</foaf:surname>
+                    </rdf:Description>
+                </dcterms:creator>
+                <dcterms:creator>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                        <foaf:givenname>Faiyaz</foaf:givenname>
+                        <foaf:surname>Al Zamal</foaf:surname>
+                    </rdf:Description>
+                </dcterms:creator>
+                <dcterms:creator>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                        <foaf:givenname>Derek</foaf:givenname>
+                        <foaf:surname>Ruths</foaf:surname>
+                    </rdf:Description>
+                </dcterms:creator>
+                <dcterms:isPartOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Proceedings"/>
+                        <dcterms:date>2012</dcterms:date>
+                        <dcterms:title>Proceedings of the when the city meets the citizen workshop, the international conference on weblogs and social media</dcterms:title>
+                    </rdf:Description>
+                </dcterms:isPartOf>
+                <dcterms:language>en</dcterms:language>
+                <dcterms:title>Using social media to infer gender composition of commuter populations</dcterms:title>
+                <bibo:authorList>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+                    </rdf:Description>
+                </bibo:authorList>
+                <bibo:pages>4</bibo:pages>
+            </rdf:Description>
+        </res:resource>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://zotero.org/users/3031286/items/UZBYJ9CT -->
+
+    <owl:NamedIndividual rdf:about="http://zotero.org/users/3031286/items/UZBYJ9CT">
+        <rdf:type rdf:resource="http://www.zotero.org/namespaces/export#UserItem"/>
+        <res:resource>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/Report"/>
+                <dcterms:creator>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                        <foaf:givenname>Federal Trade</foaf:givenname>
+                        <foaf:surname>Commission</foaf:surname>
+                    </rdf:Description>
+                </dcterms:creator>
+                <dcterms:date>2014</dcterms:date>
+                <dcterms:publisher>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+                        <address:localityName>Washington DC, USA</address:localityName>
+                    </rdf:Description>
+                </dcterms:publisher>
+                <dcterms:title>Data brokers: A call for transparency and accountability</dcterms:title>
+                <bibo:authorList>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+                    </rdf:Description>
+                </bibo:authorList>
+            </rdf:Description>
+        </res:resource>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://zotero.org/users/3031286/items/XZBJGGLY -->
+
+    <owl:NamedIndividual rdf:about="http://zotero.org/users/3031286/items/XZBJGGLY">
+        <rdf:type rdf:resource="http://www.zotero.org/namespaces/export#UserItem"/>
+        <res:resource rdf:resource="http://doi.acm.org/10.1145/3209219.3209226"/>
+        <z:accessDate>2018-12-17 19:05:10</z:accessDate>
+        <z:repository>ACM Digital Library</z:repository>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://zotero.org/users/3031286/items/Z4MVVFL8 -->
+
+    <owl:NamedIndividual rdf:about="http://zotero.org/users/3031286/items/Z4MVVFL8">
+        <rdf:type rdf:resource="http://www.zotero.org/namespaces/export#UserItem"/>
+        <res:resource rdf:resource="http://doi.acm.org/10.1145/3209219.3209249"/>
+        <z:accessDate>2018-12-17 19:05:14</z:accessDate>
+        <z:repository>ACM Digital Library</z:repository>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://zotero.org/users/3031286/items/3ERAL8TZ -->
+
+    <owl:NamedIndividual rdf:about="http://zotero.org/users/3031286/items/3ERAL8TZ">
+        <rdf:type rdf:resource="http://www.zotero.org/namespaces/export#UserItem"/>
+        <res:resource rdf:resource="http://doi.acm.org/10.1145/3209219.3209248"/>
+        <z:accessDate>2018-12-17 19:10:32</z:accessDate>
+        <z:repository>ACM Digital Library</z:repository>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://zotero.org/users/3031286/items/4EKNYAY2 -->
+
+    <owl:NamedIndividual rdf:about="http://zotero.org/users/3031286/items/4EKNYAY2">
+        <rdf:type rdf:resource="http://www.zotero.org/namespaces/export#UserItem"/>
+        <res:resource rdf:resource="http://doi.acm.org/10.1145/3209219.3209253"/>
+        <z:accessDate>2018-12-17 19:07:37</z:accessDate>
+        <z:repository>ACM Digital Library</z:repository>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://zotero.org/users/3031286/items/4GNJVZQ3 -->
+
+    <owl:NamedIndividual rdf:about="http://zotero.org/users/3031286/items/4GNJVZQ3">
+        <rdf:type rdf:resource="http://www.zotero.org/namespaces/export#UserItem"/>
+        <res:resource rdf:resource="info:doi/10/d2k78v"/>
+        <z:repository>IEEE Xplore</z:repository>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://zotero.org/users/3031286/items/67SXZLTE -->
+
+    <owl:NamedIndividual rdf:about="http://zotero.org/users/3031286/items/67SXZLTE">
+        <rdf:type rdf:resource="http://www.zotero.org/namespaces/export#UserItem"/>
+        <res:resource rdf:resource="urn:isbn:978-3-7089-1473-2"/>
+        <z:repository>Library of Congress ISBN</z:repository>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://zotero.org/users/3031286/items/7U28UCC2 -->
+
+    <owl:NamedIndividual rdf:about="http://zotero.org/users/3031286/items/7U28UCC2">
+        <rdf:type rdf:resource="http://www.zotero.org/namespaces/export#UserItem"/>
+        <res:resource rdf:resource="info:doi/10/fx99q4"/>
+        <z:repository>IEEE Xplore</z:repository>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://zotero.org/users/3031286/items/9ZNB6MRG -->
+
+    <owl:NamedIndividual rdf:about="http://zotero.org/users/3031286/items/9ZNB6MRG">
+        <rdf:type rdf:resource="http://www.zotero.org/namespaces/export#UserItem"/>
+        <res:resource>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+                <dcterms:abstract>People’s social media text has been shown to have limited prediction power of their personality. In this work, we conducted a survey study and a field study to explore the feasibility of using predicted personality traits derived from social media text for the purpose of ad targeting. In the survey study, we measured people&apos;s personalities and their responses to an advertisement tweet. We found that people with high openness and low neuroticism responded more favorably to a targeted advertisement, thus demonstrating the effects of the personality traits themselves. In the field study, we sent the advertisement tweets to real-world Twitter users, and found the same effects on users&apos; responses using personality traits derived from users&apos; tweet text. These results suggest that the derived personality traits had the same effects as the personality traits measured by traditional personality questionnaires, and can indeed improve ad targeting in real-world settings.</dcterms:abstract>
+                <dcterms:creator>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                        <foaf:givenname>Jilin</foaf:givenname>
+                        <foaf:surname>Chen</foaf:surname>
+                    </rdf:Description>
+                </dcterms:creator>
+                <dcterms:creator>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                        <foaf:givenname>Eben</foaf:givenname>
+                        <foaf:surname>Haber</foaf:surname>
+                    </rdf:Description>
+                </dcterms:creator>
+                <dcterms:creator>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                        <foaf:givenname>Ruogu</foaf:givenname>
+                        <foaf:surname>Kang</foaf:surname>
+                    </rdf:Description>
+                </dcterms:creator>
+                <dcterms:creator>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                        <foaf:givenname>Gary</foaf:givenname>
+                        <foaf:surname>Hsieh</foaf:surname>
+                    </rdf:Description>
+                </dcterms:creator>
+                <dcterms:creator>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                        <foaf:givenname>Jalal</foaf:givenname>
+                        <foaf:surname>Mahmud</foaf:surname>
+                    </rdf:Description>
+                </dcterms:creator>
+                <dcterms:isPartOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Proceedings"/>
+                        <dcterms:date>2015</dcterms:date>
+                        <dcterms:title>ICWSM</dcterms:title>
+                    </rdf:Description>
+                </dcterms:isPartOf>
+                <dcterms:language>en</dcterms:language>
+                <dcterms:title>Making Use of Derived Personality: The Case of Social Media Ad Targeting</dcterms:title>
+                <bibo:authorList>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+                    </rdf:Description>
+                </bibo:authorList>
+                <bibo:pages>51–60</bibo:pages>
+            </rdf:Description>
+        </res:resource>
+        <z:repository>Zotero</z:repository>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://academic.oup.com/dsh/article/17/4/401/1019830 -->
+
+    <owl:NamedIndividual rdf:about="https://academic.oup.com/dsh/article/17/4/401/1019830">
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/AcademicArticle"/>
+        <dcterms:abstract>Abstract.  The problem of automatically determining the gender of a document&apos;s author would appear to be a more subtle problem than those of categorization by t</dcterms:abstract>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>Moshe</foaf:givenname>
+                <foaf:surname>Koppel</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>Shlomo</foaf:givenname>
+                <foaf:surname>Argamon</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>Anat Rachel</foaf:givenname>
+                <foaf:surname>Shimoni</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:isPartOf>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/Issue"/>
+                <dcterms:date>2002/11/01</dcterms:date>
+                <dcterms:isPartOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Journal"/>
+                        <dcterms:title>Literary and Linguistic Computing</dcterms:title>
+                        <bibo:issn>0268-1145</bibo:issn>
+                        <bibo:shortTitle>Lit Linguist Computing</bibo:shortTitle>
+                    </rdf:Description>
+                </dcterms:isPartOf>
+                <bibo:issue>4</bibo:issue>
+                <bibo:volume>17</bibo:volume>
+            </rdf:Description>
+        </dcterms:isPartOf>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:title>Automatically Categorizing Written Texts by Author Gender</dcterms:title>
+        <bibo:authorList>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+            </rdf:Description>
+        </bibo:authorList>
+        <bibo:doi>10/ft4xck</bibo:doi>
+        <bibo:pages>401-412</bibo:pages>
+        <bibo:uri>https://academic.oup.com/dsh/article/17/4/401/1019830</bibo:uri>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- info:doi/10/d2k78v -->
+
+    <owl:NamedIndividual rdf:about="info:doi/10/d2k78v">
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+        <dcterms:abstract>Operators of online social networks are increasingly sharing potentially sensitive information about users and their relationships with advertisers, application developers, and data-mining researchers. Privacy is typically protected by anonymization, i.e., removing names, addresses, etc.We present a framework for analyzing privacy and anonymity in social networks and develop a new re-identification algorithm targeting anonymized social-network graphs. To demonstrate its effectiveness on real-world networks, we show that a third of the users who can be verified to have accounts on both Twitter, a popular microblogging service, and Flickr, an online photo-sharing site, can be re-identified in the anonymous Twitter graph with only a 12% error rate.Our de-anonymization algorithm is based purely on the network topology, does not require creation of a large number of dummy &quot;sybil&quot; nodes, is robust to noise and all existing defenses, and works even when the overlap between the target network and the adversary&apos;s auxiliary information is small.</dcterms:abstract>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>A.</foaf:givenname>
+                <foaf:surname>Narayanan</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>V.</foaf:givenname>
+                <foaf:surname>Shmatikov</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:isPartOf>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/Proceedings"/>
+                <dcterms:date>May 2009</dcterms:date>
+                <dcterms:title>2009 30th IEEE Symposium on Security and Privacy</dcterms:title>
+            </rdf:Description>
+        </dcterms:isPartOf>
+        <dcterms:title>De-anonymizing Social Networks</dcterms:title>
+        <bibo:authorList>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+            </rdf:Description>
+        </bibo:authorList>
+        <bibo:doi>10/d2k78v</bibo:doi>
+        <bibo:pages>173-187</bibo:pages>
+        <bibo:presentedAt>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/Conference"/>
+                <dcterms:title>2009 30th IEEE Symposium on Security and Privacy</dcterms:title>
+            </rdf:Description>
+        </bibo:presentedAt>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- info:doi/10/fx99q4 -->
+
+    <owl:NamedIndividual rdf:about="info:doi/10/fx99q4">
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+        <dcterms:abstract>Psychological personality has been shown to affect a variety of aspects: preferences for interaction styles in the digital world and for music genres, for example. Consequently, the design of personalized user interfaces and music recommender systems might benefit from understanding the relationship between personality and use of social media. Since there has not been a study between personality and use of Twitter at large, we set out to analyze the relationship between personality and different types of Twitter users, including popular users and influentials. For 335 users, we gather personality data, analyze it, and find that both popular users and influentials are extroverts and emotionally stable (low in the trait of Neuroticism). Interestingly, we also find that popular users are `imaginative&apos; (high in Openness), while influentials tend to be `organized&apos; (high in Conscientiousness). We then show a way of accurately predicting a user&apos;s personality simply based on three counts publicly available on profiles: following, followers, and listed counts. Knowing these three quantities about an active user, one can predict the user&apos;s five personality traits with a root-mean-squared error below 0.88 on a [1,5] scale. Based on these promising results, we argue that being able to predict user personality goes well beyond our initial goal of informing the design of new personalized applications as it, for example, expands current studies on privacy in social media.</dcterms:abstract>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>D.</foaf:givenname>
+                <foaf:surname>Quercia</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>M.</foaf:givenname>
+                <foaf:surname>Kosinski</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>D.</foaf:givenname>
+                <foaf:surname>Stillwell</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>J.</foaf:givenname>
+                <foaf:surname>Crowcroft</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:isPartOf>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/Proceedings"/>
+                <dcterms:date>October 2011</dcterms:date>
+                <dcterms:title>2011 IEEE Third International Conference on Privacy, Security, Risk and Trust and 2011 IEEE Third International Conference on Social Computing</dcterms:title>
+            </rdf:Description>
+        </dcterms:isPartOf>
+        <dcterms:title>Our Twitter Profiles, Our Selves: Predicting Personality with Twitter</dcterms:title>
+        <bibo:authorList>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+            </rdf:Description>
+        </bibo:authorList>
+        <bibo:doi>10/fx99q4</bibo:doi>
+        <bibo:pages>180-185</bibo:pages>
+        <bibo:presentedAt>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/Conference"/>
+                <dcterms:title>2011 IEEE Third International Conference on Privacy, Security, Risk and Trust and 2011 IEEE Third International Conference on Social Computing</dcterms:title>
+            </rdf:Description>
+        </bibo:presentedAt>
+        <bibo:shortTitle>Our Twitter Profiles, Our Selves</bibo:shortTitle>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- info:doi/10/gfrfdn -->
+
+    <owl:NamedIndividual rdf:about="info:doi/10/gfrfdn">
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>Ana</foaf:givenname>
+                <foaf:surname>Paiva</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:isPartOf>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/Proceedings"/>
+                <dcterms:date>2018</dcterms:date>
+                <dcterms:publisher>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+                        <foaf:name>ACM</foaf:name>
+                    </rdf:Description>
+                </dcterms:publisher>
+                <dcterms:title>Proceedings of the 26th Conference on User Modeling, Adaptation and Personalization</dcterms:title>
+            </rdf:Description>
+        </dcterms:isPartOf>
+        <dcterms:title>Robots that Listen to People&apos;s Hearts: The Role of Emotions in the Communication between Humans and Social Robots</dcterms:title>
+        <bibo:authorList>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+            </rdf:Description>
+        </bibo:authorList>
+        <bibo:doi>10/gfrfdn</bibo:doi>
+        <bibo:pages>175–175</bibo:pages>
+        <bibo:shortTitle>Robots that Listen to People&apos;s Hearts</bibo:shortTitle>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:isbn:978-3-319-27671-7 -->
+
+    <owl:NamedIndividual rdf:about="urn:isbn:978-3-319-27671-7">
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+        <dcterms:abstract>Instagram is a popular social networking application, which allows photo-sharing and applying different photo filters to adjust the appearance of a picture. By applying these filters, users are able to create a style that they want to express to their audience. In this study we tried to infer personality traits from the way users manipulate the appearance of their pictures by applying filters to them. To investigate this relationship, we studied the relationship between picture features and personality traits. To collect data, we conducted an online survey where we asked participants to fill in a personality questionnaire, and grant us access to their Instagram account through the Instagram API. Among 113 participants and 22,398 extracted Instagram pictures, we found distinct picture features (e.g., relevant to hue, brightness, saturation) that are related to personality traits. Our findings suggest a relationship between personality traits and these picture features. Based on our findings, we also show that personality traits can be accurately predicted. This allow for new ways to extract personality traits from social media trails, and new ways to facilitate personalized systems.</dcterms:abstract>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>Bruce</foaf:givenname>
+                <foaf:surname>Ferwerda</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>Markus</foaf:givenname>
+                <foaf:surname>Schedl</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>Marko</foaf:givenname>
+                <foaf:surname>Tkalcic</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:isPartOf>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/Proceedings"/>
+                <dcterms:date>2016</dcterms:date>
+                <dcterms:isPartOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Series"/>
+                        <dcterms:title>Lecture Notes in Computer Science</dcterms:title>
+                    </rdf:Description>
+                </dcterms:isPartOf>
+                <dcterms:publisher>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+                        <foaf:name>Springer International Publishing</foaf:name>
+                    </rdf:Description>
+                </dcterms:publisher>
+                <dcterms:title>MultiMedia Modeling</dcterms:title>
+                <bibo:editor>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                        <foaf:givenname>Qi</foaf:givenname>
+                        <foaf:surname>Tian</foaf:surname>
+                    </rdf:Description>
+                </bibo:editor>
+                <bibo:editor>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                        <foaf:givenname>Nicu</foaf:givenname>
+                        <foaf:surname>Sebe</foaf:surname>
+                    </rdf:Description>
+                </bibo:editor>
+                <bibo:editor>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                        <foaf:givenname>Guo-Jun</foaf:givenname>
+                        <foaf:surname>Qi</foaf:surname>
+                    </rdf:Description>
+                </bibo:editor>
+                <bibo:editor>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                        <foaf:givenname>Benoit</foaf:givenname>
+                        <foaf:surname>Huet</foaf:surname>
+                    </rdf:Description>
+                </bibo:editor>
+                <bibo:editor>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                        <foaf:givenname>Richang</foaf:givenname>
+                        <foaf:surname>Hong</foaf:surname>
+                    </rdf:Description>
+                </bibo:editor>
+                <bibo:editor>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                        <foaf:givenname>Xueliang</foaf:givenname>
+                        <foaf:surname>Liu</foaf:surname>
+                    </rdf:Description>
+                </bibo:editor>
+                <bibo:editorList>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+                    </rdf:Description>
+                </bibo:editorList>
+                <bibo:isbn13>978-3-319-27671-7</bibo:isbn13>
+            </rdf:Description>
+        </dcterms:isPartOf>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:title>Using Instagram Picture Features to Predict Users’ Personality</dcterms:title>
+        <bibo:authorList>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+            </rdf:Description>
+        </bibo:authorList>
+        <bibo:pages>850-861</bibo:pages>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:isbn:978-3-7089-1473-2 -->
+
+    <owl:NamedIndividual rdf:about="urn:isbn:978-3-7089-1473-2">
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Book"/>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>Wolfie</foaf:givenname>
+                <foaf:surname>Christl</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <foaf:givenname>Sarah</foaf:givenname>
+                <foaf:surname>Spiekermann</foaf:surname>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:date>2016</dcterms:date>
+        <dcterms:language>en</dcterms:language>
+        <dcterms:publisher>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+                <address:localityName>Wien</address:localityName>
+                <foaf:name>Facultas</foaf:name>
+            </rdf:Description>
+        </dcterms:publisher>
+        <dcterms:title>Networks of control: a report on corporate surveillance, digital tracking, big data &amp; privacy</dcterms:title>
+        <bibo:authorList>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+            </rdf:Description>
+        </bibo:authorList>
+        <bibo:isbn13>978-3-7089-1473-2</bibo:isbn13>
+        <bibo:lccn>HF5548.37 .C48 2016</bibo:lccn>
+        <bibo:numPages>165</bibo:numPages>
+        <bibo:shortTitle>Networks of control</bibo:shortTitle>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
