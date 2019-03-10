@@ -5,6 +5,8 @@ methods. These methods might have additional attributes and dimensions such as
 granularity and frequency. The project aims to find applicable inferences using
 a semantic-web approach (e.g. OWL2 reasoner).
 
+Summary of derivations in literature: [derivations.pdf](./derivations.pdf)
+
 ## How-To
 
 ### Creating Inferences
@@ -78,4 +80,3 @@ SELECT ?data WHERE { infer-privacy-pref-from-twitter infersData ?data . }
 # which results in -
 <https://w3id.org/pinfer/personal-data#PrivacyPreferences>
 ```
-
